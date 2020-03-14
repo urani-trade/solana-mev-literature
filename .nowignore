@@ -1,0 +1,11 @@
+image
+private.html
+!now.json
+!*.html
+Pipfile
+Pipfile.lock
+tox.ini
+Makefile
+venv
+tests
+.tox
