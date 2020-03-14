@@ -1,0 +1,43 @@
+<!-- Start custom style-->
+  <style>
+    .footer_all {
+      padding-bottom: 10px;
+      padding-top: 1rem !important;
+      margin-top: 0rem!important; 
+      margin-top: 1rem!important; 
+      text-align: center;
+    }
+    .p_footer {
+      font-size:12px;
+      color: #212529;
+    }
+    .a_footer_small {
+      color: #212529;
+      font-size: 11px;
+      text-decoration:none;
+    }
+    .a_footer_small:hover {
+      color: #a680f1;
+      text-decoration:none;
+    }
+  </style>
+<!-- end custom style-->
+
+
+<footer class="footer footer_all">
+
+  <!-- Start footer container-->
+  <div class="container">
+
+            <div>
+              <p class='p_footer'>
+                  <a class='a_footer_small' href="{% url 'terms' %}">Terms</a> ▪️  
+                  <a class='a_footer_small' href="{% url 'privacy' %}">Privacy</a> ▪️ 
+                  <a class='a_footer_small' href="{% url 'cookies-policy' %}">Cookies policy</a>
+              </p>
+            </div> 
+
+  </div>
+  <!-- End footer container-->
+
+</footer>

@@ -1,0 +1,483 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% include 'partials/navbar.html' %}
+{% include 'partials/modal.html' %}
+
+
+<!-- Start custom style -->
+<style>
+    .img_index {
+        padding-bottom: 10px; 
+        width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  .main_index{
+    padding-top:1rem!important; 
+    margin: 5px important; 
+    margin-top: 0rem!important; 
+    margin-bottom: 3rem !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  .index_pagination {
+    margin-bottom: 5rem !important;
+    margin-top: 5rem!important; 
+  }
+  .page-item_index {
+    color: #212529;
+    border-radius: 15px; 
+    box-shadow: 0 8px 42px -8px rgba(0, 0, 0, 0.2);
+    background-color: #A29FE1;
+    float:right; 
+    border: 0px !important;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .btn_index {
+    background-color: #A29FE1;
+    border: 0px; 
+    color: #212529;
+    float:center; 
+    border-radius: 15px; 
+    font-weight: 600;
+    box-shadow: 0 3px 20px -8px #8481D9;
+    padding: 10px 20px 10px 20px !important;
+    font-size: 12px !important;
+  }
+  .form_index {
+    border-radius: 15px;
+    padding: 10px 20px 20px 20px !important;
+    box-shadow: 0 3px 15px -8px #8481D9;
+    font-size: 13px;
+  }
+  .form_index_str {
+    border-radius: 15px;
+    padding: 20px 20px 20px 20px !important;
+    box-shadow:0 3px 15px -8px #8481D9;
+    font-size: 13px;
+  }
+  .index_res_num {
+    color: #666666;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .index_card {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 0 8px 42px -8px rgba(0, 0, 0, 0.2);
+    border-width: 1px;
+    border-style: solid;
+    transition: background-color 0.25s, color 0.25s, box-shadow 0.25s;
+    min-height: 220px;
+    display: inline-block;
+    text-align: left;
+    font-weight: 600;
+    line-height: 0.5;
+    color: #212529;
+    padding-bottom: 2px;
+    padding-top: 2px;
+  }
+  .index_card-body {
+    margin-bottom: 5px; 
+    margin-top: 5px; 
+    font-size: 14px;
+    color: #212529; 
+    line-height: 0.5em;
+  }
+  .h2_index {
+    font-weight: 600;
+    padding-top: 20px; 
+    padding-bottom: 35px; 
+    font-size: 55px; 
+    text-align: center;
+  }
+  .h6_index {
+    font-weight: 600;
+    margin-bottom: 15px; 
+    font-size:1.1rem; 
+  }
+  .index_modal {
+    font-size:0.8rem; 
+    line-height: 0.5em;
+    color: #6545a4; 
+    font-weight: 500;
+  }
+  .index_span_title {
+    color: #6545a4; 
+    font-size:0.8rem; 
+    line-height: 0.5em;
+    font-weight: 500;
+  }
+  .index_span {
+    color: #666666; 
+    font-size:0.8rem; 
+    font-weight: 500;
+    line-height: 0.5em;
+  }
+  .message {
+    padding-bottom: 5px;
+  }
+  .extra-btn-padding {
+    padding: 10px 40px !important;
+  }
+</style>
+<!-- End custom style -->
+
+
+<!-- Start main div -->
+<div class="container main_index">
+
+    <!-- Start message alert  -->
+    {% if messages %}
+      {% for message in messages %}
+      <div class="alert alert-{{message.tags}} message" role="alert">
+        {{message}}
+      </div>
+      {% endfor %}
+    {% endif %}
+    <!-- emd message alert  -->
+
+
+    <!-- Start image -->
+    <img class='img_index' src="https://image-arxiv.s3.amazonaws.com/logo.png" />
+    <!-- End image -->
+
+    <!-- Start title -->
+    <h2 class="h2_index">NISQ Algorithm Zoo</h2>
+    <!-- end image -->
+
+    <!-- Start main search form -->
+    <form action="." method="GET" class="mb-5"> 
+      
+      <div class="form-row">
+        <div class="form-group col-md-12" >
+          <div class="d-flex" >
+            <input autocomplete="off"  
+            type="search" name="description_contains" 
+            class="form-control py-2 border focus-change form_index_str" 
+            id="titleContains" 
+            placeholder="Description contains...">
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <div class="d-flex">
+            <input autocomplete="off" 
+            type="search" name="ref_url_exact" 
+            class="form-control py-2 border focus-change form_index_str"
+            id="titleExact" 
+            placeholder="Reference url...">
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-3">
+          <input autocomplete="off" type="number"  
+          name="qubit_min_count" min="0" class="form-control form_index_str" 
+          id="minQubits" placeholder="Min number of qubits">
+        </div>
+
+        <div class="form-group col-md-3">
+          <input autocomplete="off" type="number" 
+          name="qubit_max_count" min="0" 
+          class="form-control form_index_str" 
+          id="maxQubits" placeholder="Max number of qubits">
+        </div>
+
+        <div class="form-group col-md-3">
+            <input autocomplete="off" type="number" 
+            name="min_year" min="{{min_year}}" 
+            max="{{max_year}}" 
+            class="form-control form_index_str" 
+            id="minYear" placeholder="Earliest Year">
+        </div>
+
+        <div class="form-group col-md-3">
+            <input autocomplete="off" type="number" 
+            name="max_year" min="{{min_year}}" max="{{max_year}}" 
+            class="form-control form_index_str" 
+            id="minYear" placeholder="Latest Year">
+        </div>
+
+        <div class="form-group col-md-3">
+            <select name="algorithms"  
+             multiple class="form-control form_index form_index" 
+             id="exampleFormControlSelect2">
+              <option disabled value="">
+                Select algorithm(s)
+              </option>
+              {% for algorithm in algorithms %}
+              <option>{{algorithm}}</option>
+              {% endfor %}
+            </select>
+        </div>
+          
+        <div class="form-group col-md-3">
+            <select name="computers"
+            multiple class="form-control form_index" 
+            id="exampleFormControlSelect2">
+              <option disabled value="">
+                Select computer(s)
+              </option>
+              {% for computer in computers %}
+              <option>{{computer}}</option>
+              {% endfor %}
+            </select>
+        </div>
+
+        <div class="form-group col-md-3">
+            <select name="qubit_types"
+            multiple class="form-control form_index"
+             id="exampleFormControlSelect2">
+              <option disabled value="">
+                Select qubit type(s)
+              </option>
+              {% for type in qubit_types %}
+              <option>{{type}}</option>
+              {% endfor %}
+            </select>
+          </div>
+
+        <div class="form-group col-md-3">
+            <select name="qubit_subtypes" 
+            multiple class="form-control form_index" 
+            id="exampleFormControlSelect2">
+              <option disabled value="">
+                Select qubit subtype(s)
+              </option>
+              {% for subtype in qubit_subtypes %}
+              <option>
+                {{subtype}}
+              </option>
+              {% endfor %}
+            </select>
+          </div>
+
+        </div>
+
+        <!-- Start search button -->
+        <div class="float-right">
+          <button type="submit" 
+          name='nisq_search'
+          class="btn btn-secondary extra-btn-padding btn_index">
+            Search
+          </button>
+        </div>
+      </form>
+      <!-- end search button -->
+
+    <!-- End main search form -->
+
+
+
+    <!-- Start Result number -->
+    
+    {% if is_searched %}
+      {% if implementations|length > 0 %}
+          <h4 class="mt-5 index_res_num">
+            We found {% if is_paginated %}{{ implementations.paginator.count }} 
+            {% else %}{{implementations|length}}{% endif %} results:
+          </h4>
+      {% else %}
+          <h4 class="mt-5 index_res_num">
+            Your query is mysterious, it returns no results.
+          </h4>
+      {% endif %}
+      {% endif %}
+    <!-- End Result number -->
+    
+
+    <!-- Starting Implementation Results-->
+    <div class="row">
+     
+    {% for imp in implementations %}
+      {% if imp.approved %}
+
+        <!-- Starting Results Cards-->
+        <div class="col-sm-12 mt-1">
+          <div class="card index_card">
+      
+        <!-- Starting Inside Cards-->
+          <div class="card-body index_card-body">
+
+            <!-- Paper name -->
+            <center>
+            <h6 class='h6_index'>
+              {{imp.description}} ({{ imp.month }}/{{ imp.year_int }})
+            </h6>
+          </center>
+            <!-- End Paper name -->
+
+            <!-- Algorithm list -->
+            {% if imp.algorithm.all|length > 0 %}
+              <p >
+
+                <span class='index_span_title'>
+                  Algorithm(s)
+                  (<a class='index_modal' href="#" data-toggle="modal" data-target="#exampleModalCenter">?</a>):
+                </span>
+                
+                <span class='index_span'>
+                {% for alg in imp.algorithm.all %}
+                      {{ alg }}{% if not forloop.last %},{% endif %}
+                {% endfor %}
+                </span>
+                
+            {% else %}
+
+                <span class='index_span_title'>
+                    Algorithm(s):
+                </span>
+                <span class='index_span'>
+                  (not identified)
+                </span>
+
+              </p>
+            {% endif %}
+            <!-- End Algorithm list -->
+
+
+            <!-- Qubit Type List -->
+              <p>
+                
+                <span class='index_span_title''>
+                  Qubit Type:
+                </span>
+
+                <span class='index_span'>
+                {% if imp.qubit_type.all|length > 1 %}
+                  
+                  {% for type in imp.qubit_type.all %}
+                    {{type}}{% if not forloop.last %},{% endif %}
+                  {% endfor %}
+                
+                {% else %}
+                  {% for type in imp.qubit_type.all %}
+                    {{type}}
+                  {% endfor %}
+
+                  {% if imp.qubit_subtype.all|length > 0 %}
+                    {% for subtype in imp.qubit_subtype.all  %}
+                      ({{ subtype }}{% if not forloop.last %},{% endif %})
+                    {% endfor %}
+                  {% endif %}
+
+                {% endif %}
+              </span>
+
+            </p>
+            <!-- End Qubit Type List -->
+
+
+            <!-- Computer List-->
+              <p>
+                <span class='index_span_title''>
+                  Computer(s):
+                </span>
+
+                <span class='index_span'>
+                {% if imp.computer.all|length > 0 %}
+
+                  {% for comp in imp.computer.all %}
+                    {{comp}}{% if not forloop.last %},{% endif %}
+                  {% endfor %}
+
+                {% else %}
+                 (not identified)
+                {% endif %}
+                </span>
+
+              </p>
+              <!-- End Computer List-->
+
+
+              <!-- Number of Qubits List -->
+              <p>
+                <span class='index_span_title''>
+                  Number of Qubits:
+                </span>
+                <span class='index_span'>
+                {{ imp.qubit_number }}
+                </span>
+              </p>
+               <!-- End Number of Qubits List -->  
+
+               <center>
+              <a href="{{ imp.reference_url }}" 
+                class="btn btn-secondary extra-btn-padding btn_index">
+                See Paper
+              </a>
+            </center>
+
+          </div>
+
+          </div>
+        </div>
+        <!-- End Inside Cards-->
+        
+      {% endif %}
+      {% endfor %}
+      </div>
+    <!-- End Implementation Results-->
+
+
+    <!-- Start Pagination Logic -->
+    {% if is_paginated %}
+      <div class="index_pagination">
+        <ul class="pagination justify-content-center">
+
+
+          {% if implementations.has_previous %}
+            <li class="page-item page-item_index">
+              <a class="page-link page-item_index" href="?page=1" tabindex="-1">First</a>
+            </li>
+          {% else %}
+            <li class="page-item page-item_index disabled">
+              <a class="page-link page-item_index" href="#" tabindex="-1">First</a>
+            </li>
+          {% endif %}          
+
+          {% if implementations.has_previous and implementations.has_next %}
+
+          <li class="page-item page-item_index "><a class="page-link page-item_index" href="?page={{ implementations.previous_page_number }}">{{ implementations.previous_page_number }}</a></li>
+          <li class="page-item page-item_index disabled"><a class="page-link page-item_index" href="#">{{current_page}}</a></li>
+          <li class="page-item page-item_index"><a class="page-link page-item_index" href="?page={{implementations.next_page_number}}">{{implementations.next_page_number}}</a></li>
+
+          {% elif not implementations.has_next and implementations.has_previous %}
+            <li class="page-item page-item_index"><a class="page-link page-item_index" href="?page={{ implementations.previous_page_number }}">{{ implementations.previous_page_number|add:"-1" }}</a></li>
+            <li class="page-item page-item_index"><a class="page-link page-item_index" href="?page={{implementations.previous_page_number}}">{{ implementations.previous_page_number }}</a></li>
+            <li class="page-item page-item_index disabled"><a class="page-link page-item_index" href="#">{{current_page}}</a></li>
+
+          {% elif implementations.has_next and not implementations.has_previous %}
+            <li class="page-item page-item_index disabled"><a class="page-link page-item_index" href="#">1</a></li>
+            <li class="page-item page-item_index"><a class="page-link page-item_index" href="?page=2">{{implementations.next_page_number}}</a></li>
+            <li class="page-item page-item_index"><a class="page-link page-item_index" href="?page={{ implementations.next_page_number|add:"1"}}">{{ implementations.next_page_number|add:"1"}}</a></li>
+          {% endif %}
+          {% if implementations.has_next %}
+          <li class="page-item page-item_index">
+              <a class="page-link page-item_index" href="?page={{ implementations.paginator.num_pages }}">Last</a>
+          </li>
+            {% else %}
+            <li class="page-item page-item_index disabled">
+                <a class="page-link page-item_index" href="#">Next</a>
+            </li>
+          {% endif %}
+        </ul>
+      </div>
+
+    {% endif %}
+    <!-- End Pagination Logic -->
+
+</div>
+<!-- End main div -->
+
+
+{% include 'partials/footer.html' %}
+
+{% endblock content %}

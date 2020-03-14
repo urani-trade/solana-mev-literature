@@ -1,0 +1,95 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--  ------ Start custom style ------ -->
+<style>
+  .topnav {
+    overflow: hidden;
+    background-color:white;
+    position: relative;
+  }
+  .topnav #menuLinks {
+    display: none;
+  }
+  .topnav a {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #212529;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+  }
+  .topnav a.icon {
+    background: white;
+    color: #A29FE1;
+    display: block;
+    position: absolute;
+    font-size: 20px;
+    top: 0;
+    right: 0;
+  }
+  .topnav a:hover {
+    color: #A29FE1;
+  }
+  .img_nav {
+   padding-left: 5px;
+   width: 30px;
+ }
+  .active {
+    color: white;
+    text-align: left !important;;
+  }
+  </style>
+<!--  ------ End custom style ------ -->
+
+
+<!-- ------ Start Menu nav bar html code --------- -->
+
+  <div class="topnav">
+          
+    <a class="active" href="{% url 'index' %}">
+      <img class='img_nav' src="https://image-arxiv.s3.amazonaws.com/logo_small.png" />  
+    </a>
+
+    <!-- Start Navigation links -->
+    <div id="menuLinks">
+          {% if request.user.is_authenticated %}
+          <a href="{% url 'submit' %}">Submit Implementation</a>
+          <a href="{% url 'logout' %}">Logout</a>
+          {% else %}
+          <a href="{% url 'login' %}">Login</a>
+          <a href="{% url 'register' %}">Register</a>
+          {% endif %}
+          <a href="{% url 'graphs' %}">Graph Data</a>
+          <a href="{% url 'about' %}">About</a>
+
+    </div>
+    <!-- Enf Navigation links -->
+
+    <!-- "Hamburger menu" / "Bar icon" -->
+    <a href="javascript:void(0);" class="icon" onclick="toggleFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <!-- End "Hamburger menu" / "Bar icon" -->
+    
+  </div>
+<!-- ------ End Menu nav bar html code --------- -->
+
+
+<!--- ------ Start javascript code --------->
+
+  <!-- Toggle between showing and hiding the navigation menu 
+        links when the user clicks on the hamburger menu -->
+  <script>
+  function toggleFunction() {
+    var x = document.getElementById("menuLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+    }
+  }
+  </script>
+<!--- ------ End javascript code --------->
+

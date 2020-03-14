@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "builds": [{
+        "src": "main/wsgi.py",
+        "use": "@ardnt/now-python-wsgi",
+        "config": { "maxLambdaSize": "30mb" }
+    }],
+    "routes": [{
+        "src": "/(.*)",
+        "dest": "main/wsgi.py"
+    }],
+    "env": {
+        "DB_USER": "@db_user",
+        "DB_NAME": "@db_name",
+        "DB_PASSWORD": "@db_password",
+        "DB_HOST": "@db_host",
+        "DB_PORT": "@db_port",
+        "SECRET_KEY": "@secret_key",
+        "S3_BUCKET": "@s3_bucket",
+        "SENDGRID_API_KEY": "@sendgrid_api_key",
+        "NQZ_EMAIL": "@nqz_email",
+        "ADMIN_EMAIL": "@admin_email",
+        "EMAIL_HOST": "@email_host",
+        "EMAIL_PORT": "@email_port",
+        "EMAIL_HOST_USER": "@email_host_user"
+    }
+}

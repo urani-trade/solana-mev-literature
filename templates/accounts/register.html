@@ -1,0 +1,327 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>NISQ Algorithm Zoo | Register</title>
+{% endblock title %}
+
+{% block content %}
+{% include 'partials/navbar.html' %}
+
+<!-- Start custom style -->
+<style>
+	.img_register{
+		margin-top: 10px; 
+		padding-bottom: 10px; 
+    	width: 20%;
+        display: block;
+        margin-left: auto;
+		margin-right: auto;
+    }
+	.h6_register {
+        margin-bottom: 15px; 
+        font-size:25px; 
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+		font-weight: 600;
+		text-align: center;
+		text-align: center;
+    }
+	.btn_login{
+		background-color: #A29FE1;
+    	box-shadow: 0 3px 22px -8px #6545a4;
+        border: 0px; 
+        color: #212529;
+        border-radius: 15px; 
+        font-weight: 600;
+        padding: 10px 20px 10px 20px !important;
+		width: 100%;
+		text-align: center;
+    }
+	.span_login {
+        color: #666666; 
+        font-size:0.8rem; 
+        font-weight: 500;
+        line-height: 0.5em;
+	}
+    .a_login{
+        color: #a680f1;
+        font-size:12px;
+		text-decoration:none;
+		font-weight: 600;
+    }
+    .a_login:hover {
+        color: #212529;
+		text-decoration:none;
+		font-weight: 600;
+	}
+	.focus-input100-1,
+	.focus-input100-2 {
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		pointer-events: none;
+	}
+	.focus-input100-1::before,
+	.focus-input100-2::before {
+		content: "";
+		display: block;
+		position: absolute;
+		width: 0;
+		height: 1px;
+		background-color:#43356D 
+	}
+	input.input100 {
+		height: 68px;
+		padding: 0 25px 0 25px;
+	}
+	.focus-input100-1::before {
+		top: -1px;
+		left: 0;
+	}
+	.focus-input100-2::before {
+		bottom: -1px;
+		right: 0;
+	}
+	.focus-input100-1::after,
+	.focus-input100-2::after {
+		content: "";
+		display: block;
+		position: absolute;
+		width: 1px;
+		height: 0;
+		background-color:#43356D 
+	}
+	.focus-input100-1::after {
+		top: 0;
+		right: -1px;
+	}
+	.focus-input100-2::after {
+		bottom: 0;
+		left: -1px;
+	}
+	.input100:focus + .focus-input100-1::before {
+		-webkit-animation: full-w 0.1s linear 0s;
+		animation: full-w 0.05s linear 0s;
+		animation-fill-mode: both;
+		-webkit-animation-fill-mode: both;
+	}
+	.input100:focus + .focus-input100-1::after {
+		-webkit-animation: full-h 0.05s ease 0.05s;
+		animation: full-h 0.05s ease 0.1s;
+		animation-fill-mode: both;
+		-webkit-animation-fill-mode: both;
+	}
+	.input100:focus + .focus-input100-1 + .focus-input100-2::before {
+		-webkit-animation: full-w 0.05s ease 0.1s;
+		animation: full-w 0.05s ease 0.1s;
+		animation-fill-mode: both;
+		-webkit-animation-fill-mode: both;
+	}
+	.input100:focus + .focus-input100-1 + .focus-input100-2::after {
+		-webkit-animation: full-h 0.05s ease 0.1s;
+		animation: full-h 0.05s ease 0.1s;
+		animation-fill-mode: both;
+		-webkit-animation-fill-mode: both;
+	}
+	.wrap-input100 {
+		width: 100%;
+		position: relative;
+		background-color: #fff;
+		border: 1px solid #e6e6e6;
+	}
+	.wrap-input100.rs1 {
+		border-top: none;
+	}
+	.input100 {
+		display: block;
+		width: 100%;
+		background: transparent;
+		font-size: 15px;
+		color: #666666;
+		line-height: 1.2;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	}
+	.limiter {
+ 	 	width: 100%;
+  		margin: 0 auto;
+	}
+	.container-login100 {
+		width: 100%;
+		min-height: 100vh;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		padding: 15px;
+	}
+	.wrap-login100 {
+		width: 500px;
+		background: #fff;
+		border-radius: 10px;
+		overflow: hidden;
+		box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+		-moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+		-webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+		-o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+		-ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+		padding-left: 55px;
+		padding-right: 55px;
+		padding-top: 65px;
+		padding-bottom: 50px;
+	}
+	.login100-form {
+  		width: 100%;
+	}
+	.login100-form-title {
+  		display: block;
+  		font-family: OpenSans-Regular;
+  		font-size: 30px;
+  		color: #555555;
+  		line-height: 1.2;
+		text-align: center;
+		padding-bottom: 33px;
+	}
+	.container-login100-form-btn {
+		width: 100%;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+	.account-nav {
+		height: 56px;
+	}
+	.account-nav-logo {
+		position: absolute;
+		transform: translateX(-50%);
+		left: 50%
+	}
+</style>
+<!-- End custom style -->
+
+<!-- Start main div-->
+<div class="limiter">
+	
+	<div class="container-login100">
+		<div class="wrap-login100">
+
+
+		<!--  Start login Form -->
+		<form method="POST" class="login100-form validate-form">
+			{% csrf_token %}
+			
+			<div class="login100-form-title">
+				<!-- Start image -->
+    				<img class='img_register' src="https://image-arxiv.s3.amazonaws.com/logo.png" />
+    			<!-- End image -->
+				<h6 class="h6_register">
+					Registration
+				</h6>
+			</div>
+
+			<!-- Start Validation errors -->
+			{% if form.errors %}
+			<div class="text-center mb-4">
+				{% for field in form %}
+					{% for error in field.errors %}
+						<div class="alert alert-danger" role="alert">
+							{{ error }}
+						</div>
+					{% endfor %}
+				{% endfor %}
+				
+				{% for error in form.non_field_errors %}
+				<div class="alert alert-danger" role="alert">
+					{{ error }}
+				</div>
+				{% endfor %}
+			</div>
+			{% endif %}
+			<!-- End Validation errors -->
+
+			<!-- Start Username form -->
+			<div class="wrap-input100 span_login">
+				{{ form.username }}
+
+				<!-- focus animation -->
+				<span class="focus-input100-1"></span>
+				<span class="focus-input100-2"></span>
+			</div>
+			<!-- End Username form -->
+			
+			<!-- Start Email form -->
+			<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+				{{ form.email }}
+
+				<!-- focus animation -->
+				<span class="focus-input100-1"></span>
+				<span class="focus-input100-2"></span>
+			</div>
+			<!-- End Email form -->
+			
+			<!-- Start Password form -->
+			<div class="wrap-input100 validate-input" 
+			data-validate="Password is required">
+				{{ form.password }}
+
+				<!-- focus animation -->
+				<span class="focus-input100-1"></span>
+				<span class="focus-input100-2"></span>
+			</div>
+			<!-- End Password form -->
+
+			<!-- Start Password confirm form -->
+			<div class="wrap-input100 validate-input" 
+			data-validate="Password is required">
+				{{ form.password_confirm }}
+
+				<!-- focus animation -->
+				<span class="focus-input100-1"></span>
+					<span class="focus-input100-2"></span>
+				</div>
+			<!-- End Password confirm form -->
+
+			<!-- Start button form -->
+			<div class="container-login100-form-btn">
+				<button class="btn_login">
+					Sign up
+				</button>
+			</div>
+			<!-- End button form -->
+
+			<!-- Start have an account form -->
+			<div class="text-center p-t-45 p-b-4">
+				<span class="span_login">
+					Have an account?
+				</span>
+				<a href="{% url 'login' %}" class="a_login">
+						Sign in
+				</a>
+			</div>
+			<!-- End have an account form -->
+			
+		</form>
+		<!--  End login Form -->
+
+		</div>
+	</div>
+
+</div>
+<!-- End main div-->
+
+<!-- Start custom scripts-->
+<script src="https://image-arxiv.s3.amazonaws.com/formclear.js"></script>
+<!-- End custom scripts-->
+
+
+{% endblock content %}

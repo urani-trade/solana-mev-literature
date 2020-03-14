@@ -1,0 +1,219 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>NISQ Algorithm Zoo | Submit</title>
+{% endblock title %}
+
+{% block content %}
+{% include 'partials/navbar.html' %}
+{% include 'partials/modal.html' %}
+
+
+
+<!-- Start custom style -->
+<style>
+  .div_submit {
+    margin-top: 9rem !important; 
+    margin-bottom: 9rem !important; 
+    position: absolute; 
+    left: 50%; 
+    -webkit-transform: translateX(-50%); 
+    transform: translateX(-50%);
+    margin-top: 3rem !important;
+    padding-top: 3rem !important;
+  }
+  .btn_index {
+    background-color: #A29FE1;
+    border: 0px; 
+    color: #212529;
+    float:center; 
+    border-radius: 15px; 
+    font-weight: 600;
+    box-shadow: 0 3px 22px -8px #6545a4;
+    padding: 10px 20px 10px 20px !important;
+    }
+  .validate-input {
+    position: relative;
+  }
+  .alert{
+    position: absolute;
+    font-size: 11px;
+    color: #f36e6e;
+    font-weight: 600;
+    padding: 10px 25px 10px 20px;
+  }
+  .alert-validate::before {
+    content: attr(data-validate);
+    position: absolute;
+    max-width: 70%;
+    background-color: #fff;
+    border: 1px solid #c80000;
+    border-radius: 2px;
+    padding: 4px 25px 4px 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 12px;
+    pointer-events: none;
+    font-family: OpenSans-Regular;
+    color: #c80000;
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: left;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 0.4s;
+    -o-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+  }
+  .alert-validate::after {
+    content: "\f12a";
+    font-family: FontAwesome;
+    display: block;
+    position: absolute;
+    color: #c80000;
+    font-size: 16px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 18px;
+  }
+  .alert-validate:hover:before {
+    visibility: visible;
+    opacity: 1;
+  }
+  .h4_submit {
+    font-weight: 600;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: #6545a4;
+  }
+</style>
+<!-- End custom style -->
+
+
+<!-- Start main div-->
+<div class="container div_submit">
+  
+  <h4 class="h4_submit">
+    Hi, {{user.username}}, you can submit a NISQ Implementation here:
+  </h4>
+
+  <!-- Start submission Form -->
+  <form class="mb-5 pb-5" method="POST">
+    {% csrf_token %}
+   
+    <!-- Start row  -->
+    <div class="form-row mb-3">
+
+      <!-- Start month Form --> 
+      <div class="col-sm-12 col-md-6 col-lg-3">
+          <h6 class="mt-3">Month</h6>
+          {{ form.month }}
+      </div>
+      <!-- End month Form -->
+
+      <!-- Start year Form -->
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <h6 class="mt-3">Year</h6>
+        {{ form.year_int }}
+      </div>
+      <!-- End year Form -->
+
+      <!-- Start reference url Form -->
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <h6 class="mt-3">Reference URL</h6>
+        {{ form.reference_url }}
+      </div>
+      <!-- Start reference url Form -->
+
+      <!-- Start number of qubits Form -->
+      <div class="col-sm-12 col-md-6 col-lg-3">
+        <h6 class="mt-3">Number of Qubits</h6>
+        {{ form.qubit_number }}
+      </div>
+      <!-- Start number of qubits Form -->
+
+    </div>
+    <!-- End row  -->
+
+    <!-- Start row  -->
+    <div class="form-row mb-3">
+
+      <!-- Start description Form -->
+      <div class="col">
+        <h6>Description of implementation</h6>
+        {{ form.description }}
+      </div>
+      <!-- end description Form -->
+
+    </div>
+    <!-- End row  -->
+
+    <!-- Start row  -->
+    <div class="form-row mb-3">
+
+      <!-- Start computer Form -->
+      <div class="col-sm-6 col-md-6 col-lg-3">
+        <h6 class="mt-2">Computer(s)</h6>
+        {{ form.computer }}
+      </div>
+      <!-- end computer Form -->
+
+      <!-- Start alg Form -->
+      <div class="col-sm-6 col-md-6 col-lg-3">
+        <h6 class="mt-2">Algorithm(s) (<span class="text-info" style="cursor: pointer;" data-toggle="modal" data-target="#exampleModalCenter">?</span>)</h6>
+        {{ form.algorithm }}
+      </div>
+      <!-- End alg Form -->
+
+      <!-- Start qubit type Form -->
+      <div class="col-sm-6 col-md-6 col-lg-3">
+        <h6 class="mt-2">Qubit type(s)</h6>
+        {{ form.qubit_type }}
+      </div>
+      <!-- End qubit type Form -->
+
+      <!-- Start qubit subtype Form -->
+      <div class="col-sm-6 col-md-6 col-lg-3">
+        <h6 class="mt-2">Qubit subtype(s)</h6>
+        {{ form.qubit_subtype }}
+      </div>
+      <!-- End qubit subtype Form -->
+
+    </div>
+    <!-- End row  -->
+
+    <!-- Start button  -->
+    <div class="float-right">
+        <button type="submit" class="btn btn-secondary extra-btn-padding btn_index">
+          Submit
+        </button>
+    </div>
+    <!-- End button  -->
+
+    <!-- Start message alert  -->
+    {% if messages %}
+      {% for message in messages %}
+      <div class="alert alert-{{message.tags}} message" role="alert">
+        {{message}}
+      </div>
+      {% endfor %}
+    {% endif %}
+    <!-- emd message alert  -->
+
+  </form>
+  <!-- End submission Form -->
+
+
+</div>
+<!-- End main div -->
+
+{% endblock content %}

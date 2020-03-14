@@ -1,0 +1,1666 @@
+[
+  {
+    "year": 1997,
+    "month": "Aug",
+    "algorithm": null,
+    "description": "Implemented gates (XOR, Toffoli), prepared entangled state",
+    "qubit_type": [
+      "NMR"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 3,
+    "reference_url": "https://arxiv.org/abs/quant-ph/9709001"
+  },
+  {
+    "year": 1997,
+    "month": "Oct",
+    "algorithm": null,
+    "description": "Implemented gates (Rotation, CNOT), prepared entangled state",
+    "qubit_type": [
+      "NMR"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 2,
+    "reference_url": null
+  },
+  {
+    "year": 1997,
+    "month": "Nov",
+    "algorithm": [
+      "Grover"
+    ],
+    "description": "Executed Grover's algorithm on two qubits.",
+    "qubit_type": [
+      "NMR"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 2,
+    "reference_url": "Paper"
+  },
+  {
+    "year": 1998,
+    "month": "Jan",
+    "algorithm": [
+      "DJ"
+    ],
+    "description": "Executed DJ algorithm on NMR quantum computer",
+    "qubit_type": [
+      "NMR"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 2,
+    "reference_url": "https://arxiv.org/abs/quant-ph/9801027"
+  },
+  {
+    "year": 1998,
+    "month": "Feb",
+    "algorithm": [
+      "QEC"
+    ],
+    "description": "Implemented 3-bit code for phase errors in liquid state NMR",
+    "qubit_type": [
+      "NMR"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 3,
+    "reference_url": "https://arxiv.org/abs/quant-ph/9802018"
+  },
+  {
+    "year": 1998,
+    "month": "Aug",
+    "algorithm": [
+      "DJ"
+    ],
+    "description": "Executed DJ algorithm on NMR quantum computer",
+    "qubit_type": [
+      "NMR"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 3,
+    "reference_url": "https://arxiv.org/abs/quant-ph/9808039"
+  },
+  {
+    "year": 2000,
+    "month": "Mar",
+    "algorithm": [
+      "DJ"
+    ],
+    "description": "Executed DJ algorithm on NMR quantum computer",
+    "qubit_type": [
+      "NMR"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 3,
+    "reference_url": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.61.042306"
+  },
+  {
+    "year": 2000,
+    "month": "Mar",
+    "algorithm": [
+      "Entanglement"
+    ],
+    "description": "Experimental entanglement of four particles",
+    "qubit_type": "Trapped ion",
+    "qubit_subtype": [
+      "9Be+"
+    ],
+    "computer": null,
+    "num_qubits": 4,
+    "reference_url": "PDF"
+  },
+  {
+    "year": 2000,
+    "month": "Apr",
+    "algorithm": [
+      "Benchmark"
+    ],
+    "description": "Coherent manipulations of seven qubits",
+    "qubit_type": [
+      "NMR"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 7,
+    "reference_url": "PDF"
+  },
+  {
+    "year": 2000,
+    "month": "June",
+    "algorithm": [
+      "DJ"
+    ],
+    "description": "Executed DJ algorithm on NMR quantum computer",
+    "qubit_type": [
+      "NMR"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": null,
+    "reference_url": "https://aip.scitation.org/doi/10.1063/1.482015"
+  },
+  {
+    "year": 2000,
+    "month": "June",
+    "algorithm": [
+      "DJ"
+    ],
+    "description": "Executed DJ algorithm on NMR quantum computer",
+    "qubit_type": [
+      "NMR"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 4,
+    "reference_url": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.62.012310"
+  },
+  {
+    "year": 2000,
+    "month": "July",
+    "algorithm": [
+      "Order finding"
+    ],
+    "description": "Experimental realization of order finding",
+    "qubit_type": [
+      "NMR"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 5,
+    "reference_url": "https://arxiv.org/abs/quant-ph/0007017"
+  },
+  {
+    "year": 2000,
+    "month": "Dec",
+    "algorithm": [
+      "BV"
+    ],
+    "description": "Executed BV algorithm on an ensemble quantum computer",
+    "qubit_type": [
+      "NMR"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 2,
+    "reference_url": "https://arxiv.org/abs/quant-ph/0012114"
+  },
+  {
+    "year": 2001,
+    "month": "June",
+    "algorithm": [
+      "QEC"
+    ],
+    "description": "Experimental demonstration of five qubit code",
+    "qubit_type": [
+      "NMR"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 5,
+    "reference_url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.86.5811"
+  },
+  {
+    "year": 2001,
+    "month": "Sep",
+    "algorithm": [
+      "BV"
+    ],
+    "description": "Executed BV algorithm",
+    "qubit_type": [
+      "NMR"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 2,
+    "reference_url": "https://arxiv.org/abs/quant-ph/0012114"
+  },
+  {
+    "year": 2001,
+    "month": "Dec",
+    "algorithm": [
+      "Shor"
+    ],
+    "description": "Factor 15",
+    "qubit_type": [
+      "NMR"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 7,
+    "reference_url": "https://arxiv.org/abs/quant-ph/0112176"
+  },
+  {
+    "year": 2003,
+    "month": "Jan",
+    "algorithm": [
+      "DJ",
+      "BV"
+    ],
+    "description": "Implement DJ and BV on",
+    "qubit_type": [
+      "Linear optics"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 3,
+    "reference_url": "Paper"
+  },
+  {
+    "year": 2003,
+    "month": "Feb",
+    "algorithm": [
+      "DJ"
+    ],
+    "description": "Executed DJ on ion-trap quantum computer",
+    "qubit_type": "Trapped ion",
+    "qubit_subtype": [
+      "40Ca+"
+    ],
+    "computer": null,
+    "num_qubits": 1,
+    "reference_url": "Paper"
+  },
+  {
+    "year": 2004,
+    "month": "Dec",
+    "algorithm": [
+      "QEC"
+    ],
+    "description": "Demonstrates 3 qubit code for spin flip errors",
+    "qubit_type": "Trapped ion",
+    "qubit_subtype": [
+      "9Be+"
+    ],
+    "computer": null,
+    "num_qubits": 3,
+    "reference_url": "PDF"
+  },
+  {
+    "year": 2005,
+    "month": "May",
+    "algorithm": [
+      "QFT"
+    ],
+    "description": "Semi-classical QFT",
+    "qubit_type": "Trapped ion",
+    "qubit_subtype": [
+      "9Be+"
+    ],
+    "computer": null,
+    "num_qubits": 3,
+    "reference_url": "https://science.sciencemag.org/content/308/5724/997"
+  },
+  {
+    "year": 2005,
+    "month": "Sep",
+    "algorithm": [
+      "DJ",
+      "Grover"
+    ],
+    "description": "Implemented multiple algorithms on NMR quantum computer",
+    "qubit_type": [
+      "NMR"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": null,
+    "reference_url": "https://arxiv.org/abs/quant-ph/0509046"
+  },
+  {
+    "year": 2005,
+    "month": "Oct",
+    "algorithm": [
+      "Grover"
+    ],
+    "description": "Executed Grover's algorithm on two trapped ion qubits",
+    "qubit_type": "Trapped ion",
+    "qubit_subtype": [
+      "111Cd+"
+    ],
+    "computer": null,
+    "num_qubits": null,
+    "reference_url": null
+  },
+  {
+    "year": 2007,
+    "month": "May",
+    "algorithm": [
+      "Shor"
+    ],
+    "description": "Factor 15",
+    "qubit_type": [
+      "Photonic"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 4,
+    "reference_url": null
+  },
+  {
+    "year": 2007,
+    "month": "Apr",
+    "algorithm": [
+      "Shor"
+    ],
+    "description": "Factor 15",
+    "qubit_type": [
+      "Photonic"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 4,
+    "reference_url": "PDF"
+  },
+  {
+    "year": 2009,
+    "month": "Mar",
+    "algorithm": [
+      "DJ",
+      "Grover"
+    ],
+    "description": "Executed Grover and DJ algorithm on superconducting processor",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 2,
+    "reference_url": "https://arxiv.org/abs/0903.2030"
+  },
+  {
+    "year": 2009,
+    "month": "Nov",
+    "algorithm": [
+      "Shor"
+    ],
+    "description": "Factor 15",
+    "qubit_type": [
+      "Photonic"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 4,
+    "reference_url": "https://arxiv.org/abs/0911.1242"
+  },
+  {
+    "year": 2010,
+    "month": "Feb",
+    "algorithm": [
+      "DJ"
+    ],
+    "description": "Implemented DJ algorithm with single electronic spin in diamond",
+    "qubit_type": [
+      "NV Center"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 1,
+    "reference_url": "https://arxiv.org/abs/1002.2465"
+  },
+  {
+    "year": 2011,
+    "month": "May",
+    "algorithm": [
+      "QEC"
+    ],
+    "description": "Implements multiple QEC codes",
+    "qubit_type": [
+      "Trapped ion"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": null,
+    "reference_url": "Abstract"
+  },
+  {
+    "year": 2011,
+    "month": "Sep",
+    "algorithm": [
+      "QEC"
+    ],
+    "description": "Realization of 3 qubit bit (phase) flip code",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 3,
+    "reference_url": "https://arxiv.org/abs/1109.4948"
+  },
+  {
+    "year": 2011,
+    "month": "Nov",
+    "algorithm": [
+      "Shor"
+    ],
+    "description": "Factor 21",
+    "qubit_type": [
+      "Photonic"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 2,
+    "reference_url": "https://arxiv.org/abs/1111.4147"
+  },
+  {
+    "year": 2012,
+    "month": "Feb",
+    "algorithm": [
+      "Benchmark"
+    ],
+    "description": "Perform quantum process tomography on universal gate set",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 2,
+    "reference_url": "https://arxiv.org/abs/1202.5344"
+  },
+  {
+    "year": 2013,
+    "month": "Apr",
+    "algorithm": [
+      "VQE"
+    ],
+    "description": "Compute ground state energy of He-H+",
+    "qubit_type": [
+      "Photonic"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 2,
+    "reference_url": "https://arxiv.org/abs/1304.3061"
+  },
+  {
+    "year": 2014,
+    "month": "Jan",
+    "algorithm": null,
+    "description": "Gate implementations and entangled state preparation",
+    "qubit_type": "Trapped ion",
+    "qubit_subtype": [
+      "171Yb+"
+    ],
+    "computer": null,
+    "num_qubits": 5,
+    "reference_url": "https://arxiv.org/abs/1401.1575"
+  },
+  {
+    "year": 2015,
+    "month": "Jan",
+    "algorithm": [
+      "Benchmark"
+    ],
+    "description": "Randomized benchmarking of single qubit gates",
+    "qubit_type": [
+      "Neutral atom"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 49,
+    "reference_url": "https://arxiv.org/abs/1501.02041"
+  },
+  {
+    "year": 2015,
+    "month": "Feb",
+    "algorithm": [
+      "Sim"
+    ],
+    "description": "Quantum simulation of Heisenberg and Ising models.",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 2,
+    "reference_url": "https://arxiv.org/abs/1502.06778"
+  },
+  {
+    "year": 2015,
+    "month": "Apr",
+    "algorithm": [
+      "QEC"
+    ],
+    "description": "Demonstration of quantum error detection protocol",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 4,
+    "reference_url": "https://www.nature.com/articles/ncomms7979"
+  },
+  {
+    "year": 2015,
+    "month": "July",
+    "algorithm": [
+      "Shor"
+    ],
+    "description": "Factor 15",
+    "qubit_type": "Trapped ion",
+    "qubit_subtype": [
+      "40Ca+"
+    ],
+    "computer": null,
+    "num_qubits": 5,
+    "reference_url": "https://arxiv.org/abs/1507.08852"
+  },
+  {
+    "year": 2015,
+    "month": "Dec",
+    "algorithm": [
+      "VQE",
+      "QPE"
+    ],
+    "description": "Compute energy surface of molecular Hydrogen",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 3,
+    "reference_url": "https://arxiv.org/abs/1512.06860"
+  },
+  {
+    "year": 2016,
+    "month": "Mar",
+    "algorithm": [
+      "Benchmark"
+    ],
+    "description": "Executes single and two-qubit gates",
+    "qubit_type": "Trapped ion",
+    "qubit_subtype": [
+      "9Be+"
+    ],
+    "computer": null,
+    "num_qubits": 2,
+    "reference_url": "https://arxiv.org/abs/1604.00032"
+  },
+  {
+    "year": 2016,
+    "month": "Mar",
+    "algorithm": [
+      "DJ",
+      "BV",
+      "QFT"
+    ],
+    "description": "Execute DJ, BV, and QFT algorithms",
+    "qubit_type": "Trapped ion",
+    "qubit_subtype": [
+      "171Yb+"
+    ],
+    "computer": null,
+    "num_qubits": 5,
+    "reference_url": "https://arxiv.org/abs/1603.04512"
+  },
+  {
+    "year": 2016,
+    "month": "Mar",
+    "algorithm": [
+      "BV"
+    ],
+    "description": "Implements BV algorithm",
+    "qubit_type": "Trapped ion",
+    "qubit_subtype": [
+      "171Yb+"
+    ],
+    "computer": null,
+    "num_qubits": 3,
+    "reference_url": "https://arxiv.org/abs/1603.05672"
+  },
+  {
+    "year": 2016,
+    "month": "May",
+    "algorithm": [
+      "Mermin inequalties"
+    ],
+    "description": "Experimental test of Mermin inequalities",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "IBM Q Experience",
+    "num_qubits": 5,
+    "reference_url": "https://arxiv.org/abs/1605.04220"
+  },
+  {
+    "year": 2016,
+    "month": "May",
+    "algorithm": [
+      "Multiple"
+    ],
+    "description": "Executes QEC, arithmetic, etc.",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "IBM Q Experience",
+    "num_qubits": 5,
+    "reference_url": "https://arxiv.org/abs/1605.05709"
+  },
+  {
+    "year": 2016,
+    "month": "Aug",
+    "algorithm": [
+      "QEC"
+    ],
+    "description": "Demonstrates a method to optimize encoding procedure for small error correction code",
+    "qubit_type": "Ion trap",
+    "qubit_subtype": [
+      "40Ca+"
+    ],
+    "computer": null,
+    "num_qubits": 7,
+    "reference_url": "https://arxiv.org/abs/1603.00402"
+  },
+  {
+    "year": 2017,
+    "month": "May",
+    "algorithm": [
+      "QEC"
+    ],
+    "description": "Sampling from states prepared with the [[4, 2, 2]] code",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "IBMQX4",
+    "num_qubits": 5,
+    "reference_url": "https://arxiv.org/abs/1705.08957"
+  },
+  {
+    "year": 2017,
+    "month": "May",
+    "algorithm": [
+      "QEC"
+    ],
+    "description": "Demonstrates fault-tolerant state preparation",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 5,
+    "reference_url": "https://arxiv.org/abs/1705.09259"
+  },
+  {
+    "year": 2017,
+    "month": "June",
+    "algorithm": [
+      "Benchmark"
+    ],
+    "description": "Multiple benchmarking circuits",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "IBMQX3",
+    "num_qubits": 5,
+    "reference_url": "https://arxiv.org/abs/1706.04341"
+  },
+  {
+    "year": 2017,
+    "month": "Aug",
+    "algorithm": [
+      "QEC"
+    ],
+    "description": "Experimental realization of error correction for Bell and GHZ states",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 5,
+    "reference_url": "https://arxiv.org/abs/1708.02297"
+  },
+  {
+    "year": 2017,
+    "month": "Sep",
+    "algorithm": [
+      "QEC"
+    ],
+    "description": "Repetition code of 15 qubits.",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "IBMQX3",
+    "num_qubits": 15,
+    "reference_url": "https://arxiv.org/abs/1709.00990"
+  },
+  {
+    "year": 2018,
+    "month": "Jan",
+    "algorithm": [
+      "Benchmark"
+    ],
+    "description": "Demonstrates graph states on 8-16 qubits are fully entangled",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "IBMQX5",
+    "num_qubits": 16,
+    "reference_url": "https://arxiv.org/abs/1801.03782"
+  },
+  {
+    "year": 2018,
+    "month": "Jan",
+    "algorithm": [
+      "VQE"
+    ],
+    "description": "Computes energy landscapes of deuteron",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": [
+      "IBMQX5",
+      "Rigetti 19Q-Acorn"
+    ],
+    "num_qubits": 3,
+    "reference_url": "https://arxiv.org/abs/1801.03897"
+  },
+  {
+    "year": 2018,
+    "month": "Feb",
+    "algorithm": [
+      "VQE",
+      "QSE"
+    ],
+    "description": "Compute ground/excited states of H2",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 2,
+    "reference_url": "PRX PDF"
+  },
+  {
+    "year": 2018,
+    "month": "Mar",
+    "algorithm": [
+      "S.O."
+    ],
+    "description": "Compute state overlap for one-qubit states",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": [
+      "IBMQX4",
+      "Rigetti 19Q-Acorn"
+    ],
+    "num_qubits": 2,
+    "reference_url": "https://arxiv.org/abs/1803.04114"
+  },
+  {
+    "year": 2018,
+    "month": "Apr",
+    "algorithm": [
+      "Multiple"
+    ],
+    "description": "Grover, BV, Shor, HHL, persistent homology, ... (cont. below)",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": [
+      "IBMQX4",
+      "IBMQX5"
+    ],
+    "num_qubits": 5,
+    "reference_url": "https://arxiv.org/abs/1804.03719"
+  },
+  {
+    "year": 2018,
+    "month": "Apr",
+    "algorithm": [
+      "Multiple"
+    ],
+    "description": "Min. spanning tree, QAOA, qPCA, qSVM, Schrodinger's eqn. simulation, state preparation, state tomography",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": [
+      "IBMQX4",
+      "IBMQX5"
+    ],
+    "num_qubits": 5,
+    "reference_url": "https://arxiv.org/abs/1804.03719"
+  },
+  {
+    "year": 2018,
+    "month": "Apr",
+    "algorithm": [
+      "SVM"
+    ],
+    "description": "Classify two-dimensional data",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 2,
+    "reference_url": "https://arxiv.org/abs/1804.11326"
+  },
+  {
+    "year": 2018,
+    "month": "June",
+    "algorithm": [
+      "Benchmark"
+    ],
+    "description": "Randomized benchmarking",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": [
+      "IBMQX4",
+      "IBMQX5",
+      "Rigetti 8Q-Agave",
+      "Rigetti 19Q-Acorn"
+    ],
+    "num_qubits": 19,
+    "reference_url": "https://arxiv.org/abs/1806.02736"
+  },
+  {
+    "year": 2018,
+    "month": "June",
+    "algorithm": [
+      "Scrambling"
+    ],
+    "description": "Application of quantum scrambling in Rydberg atom",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "IBMQX4",
+    "num_qubits": 5,
+    "reference_url": "https://arxiv.org/abs/1806.00781"
+  },
+  {
+    "year": 2018,
+    "month": "June",
+    "algorithm": [
+      "QEC"
+    ],
+    "description": "Randomized benchmarking on [4, 2, 2] code",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "IBMQX5",
+    "num_qubits": 4,
+    "reference_url": "https://arxiv.org/abs/1806.02359"
+  },
+  {
+    "year": 2018,
+    "month": "July",
+    "algorithm": [
+      "QAQC"
+    ],
+    "description": "Compile quantum algorithms",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": [
+      "Rigetti 8Q-Agave",
+      "IBMQX1",
+      "IBMQX2"
+    ],
+    "num_qubits": 2,
+    "reference_url": "https://arxiv.org/abs/1807.00800"
+  },
+  {
+    "year": 2018,
+    "month": "July",
+    "algorithm": [
+      "QEC"
+    ],
+    "description": "Quantum error detection for (2n + 1)-qubit entangled states",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "IBMQX5",
+    "num_qubits": 13,
+    "reference_url": "https://arxiv.org/abs/1807.02883"
+  },
+  {
+    "year": 2018,
+    "month": "July",
+    "algorithm": [
+      "Sim"
+    ],
+    "description": "Simulates spin-boson model",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "IBMQX4",
+    "num_qubits": 5,
+    "reference_url": "https://arxiv.org/abs/1807.00323"
+  },
+  {
+    "year": 2018,
+    "month": "Sep",
+    "algorithm": [
+      "DJ",
+      "BV",
+      "QFT"
+    ],
+    "description": "Implemented DJ, BV, QFT, and Grover on three qubits",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "Trimon",
+    "num_qubits": 3,
+    "reference_url": "https://arxiv.org/abs/1809.00668"
+  },
+  {
+    "year": 2018,
+    "month": "Oct",
+    "algorithm": [
+      "VQSD"
+    ],
+    "description": "Diagonalize a 2x2 matrix",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "Rigetti 8Q-Agave",
+    "num_qubits": 1,
+    "reference_url": "https://arxiv.org/abs/1810.10506"
+  },
+  {
+    "year": 2018,
+    "month": "Nov",
+    "algorithm": [
+      "Benchmark"
+    ],
+    "description": "Introduces and computes quantum volume on several computers",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "IBMQ",
+    "num_qubits": 16,
+    "reference_url": "https://arxiv.org/abs/1811.12926"
+  },
+  {
+    "year": 2019,
+    "month": "Jan",
+    "algorithm": [
+      "QITE",
+      "QLanczos"
+    ],
+    "description": "Compute ground state energy of TFIM using two novel algorithms",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "Rigetti Aspen QPU",
+    "num_qubits": 2,
+    "reference_url": "https://arxiv.org/abs/1901.07653"
+  },
+  {
+    "year": 2019,
+    "month": "Feb",
+    "algorithm": [
+      "VQE"
+    ],
+    "description": "Compute ground state energy of H20",
+    "qubit_type": "Trapped ion",
+    "qubit_subtype": [
+      "171Yb+"
+    ],
+    "computer": "IonQ",
+    "num_qubits": 11,
+    "reference_url": "https://arxiv.org/abs/1902.10171"
+  },
+  {
+    "year": 2019,
+    "month": "Mar",
+    "algorithm": [
+      "BV",
+      "HS"
+    ],
+    "description": "Execute BV and HS algorithms",
+    "qubit_type": "Ion trap",
+    "qubit_subtype": [
+      "171Yb+"
+    ],
+    "computer": null,
+    "num_qubits": 11,
+    "reference_url": "https://arxiv.org/abs/1905.09294"
+  },
+  {
+    "year": 2019,
+    "month": "Mar",
+    "algorithm": [
+      "Benchmark"
+    ],
+    "description": "Executes randomized benchmarking with \"error-aware\" compiling",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "IBMQ16",
+    "num_qubits": 16,
+    "reference_url": "https://arxiv.org/abs/1903.10963v1"
+  },
+  {
+    "year": 2019,
+    "month": "May",
+    "algorithm": null,
+    "description": "Demonstrates protocol for simultaneous entanglement generation of arbitrary qubit pairs",
+    "qubit_type": "Ion trap",
+    "qubit_subtype": [
+      "171Yb+"
+    ],
+    "computer": "IonQ",
+    "num_qubits": 11,
+    "reference_url": "https://arxiv.org/abs/1905.09294"
+  },
+  {
+    "year": 2019,
+    "month": "June",
+    "algorithm": [
+      "Sim."
+    ],
+    "description": "Hamiltonian simulation for many-body dynamics",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "IBMQ20",
+    "num_qubits": 10,
+    "reference_url": "https://arxiv.org/abs/1906.06343"
+  },
+  {
+    "year": 2019,
+    "month": "Aug",
+    "algorithm": null,
+    "description": "Entanglement generation in two-dimensional neutral atom qubit array; benchmark",
+    "qubit_type": [
+      "Neutral atom"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": null,
+    "reference_url": "https://arxiv.org/abs/1908.06103"
+  },
+  {
+    "year": 2019,
+    "month": "Aug",
+    "algorithm": null,
+    "description": "Parallel implementation of multi-qubit gates; benchmark",
+    "qubit_type": [
+      "Neutral atom"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 10,
+    "reference_url": "https://arxiv.org/abs/1908.06101"
+  },
+  {
+    "year": 2019,
+    "month": "Aug",
+    "algorithm": [
+      "Sim."
+    ],
+    "description": "Simulates SU(2) non-abelian gauge field theory in one dimension",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "IBMQ20",
+    "num_qubits": 4,
+    "reference_url": "https://arxiv.org/abs/1908.06935"
+  },
+  {
+    "year": 2019,
+    "month": "Aug",
+    "algorithm": [
+      "QML"
+    ],
+    "description": "Solves small optimization problems",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "Rigetti Aspen QPU",
+    "num_qubits": 10,
+    "reference_url": "https://arxiv.org/abs/1908.08054"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": null,
+    "description": "Generates and observes entanglement between an Rb-87 atom and a photon at telecom wavelength over 20 km optical fiber",
+    "qubit_type": [
+      "Photonic"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 2,
+    "reference_url": "https://arxiv.org/abs/1909.01006"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": [
+      "Verification"
+    ],
+    "description": "Presents measurements of experiment-theory fidelities for entangled 10-qubit quantum states",
+    "qubit_type": [
+      "Ion trap"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 10,
+    "reference_url": "https://arxiv.org/abs/1909.01282"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": null,
+    "description": "Realizes memory-enhanced quantum communication",
+    "qubit_type": [
+      "Photonic"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 6,
+    "reference_url": "https://arxiv.org/abs/1909.01323"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": null,
+    "description": "Observes and quantifies negativity/entanglement of formation in bipartite qutrit states",
+    "qubit_type": [
+      "Photonic"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 2,
+    "reference_url": "https://arxiv.org/abs/1909.01367"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": [
+      "Q. Walk"
+    ],
+    "description": "Observes quantum walk of a phonon in a trapped-ion crystal",
+    "qubit_type": "Trapped ion",
+    "qubit_subtype": [
+      "40Ca+"
+    ],
+    "computer": null,
+    "num_qubits": 4,
+    "reference_url": null
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": null,
+    "description": "Generates photon-atom entanglement in a 6x5 multiplexed atomic quantum memory",
+    "qubit_type": [
+      "Photon",
+      "atom"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": null,
+    "reference_url": "https://arxiv.org/abs/1909.02185"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": null,
+    "description": "Demonstrates 173Yb(trensal) molecule behaves as a nuclear qudit coupled to an electronic qubit",
+    "qubit_type": [
+      "Neutral atom"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 1,
+    "reference_url": "https://arxiv.org/abs/1909.02374"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": [
+      "QML"
+    ],
+    "description": "Proposes kernel algorithm and demonstrates example on IBM Q hardware",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": [
+      "IBMQX2",
+      "IBMQX4"
+    ],
+    "num_qubits": 5,
+    "reference_url": "https://arxiv.org/abs/1909.02611"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": null,
+    "description": "Reports first experimental demonstration of a universal quantum cloning machine",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 5,
+    "reference_url": "https://arxiv.org/abs/1909.03170"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": [
+      "Q. Walk"
+    ],
+    "description": "Implements quantum state transfer on various graphs via quantum walks",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": [
+      "IBMQX2",
+      "IBMQX4",
+      "IBMQ 16"
+    ],
+    "num_qubits": 7,
+    "reference_url": "https://arxiv.org/abs/1909.03617"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": null,
+    "description": "Demonstrates quantum steering",
+    "qubit_type": [
+      "Photonic"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 2,
+    "reference_url": "https://arxiv.org/abs/1909.04001"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": [
+      "Sim."
+    ],
+    "description": "Emulates linear and nonlinear optical elements",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "IBMQX5",
+    "num_qubits": 5,
+    "reference_url": "https://arxiv.org/abs/1909.04408"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": [
+      "Benchmark"
+    ],
+    "description": "Characterizes singles qubit error rates on IBMQ Poughkeepsie",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "IBMQ Poughkeepsie",
+    "num_qubits": 1,
+    "reference_url": "https://arxiv.org/abs/1909.05219"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": [
+      "Sim."
+    ],
+    "description": "Computes two-point correlation functions for a Heisenberg spin chain",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "IBMQ20",
+    "num_qubits": 4,
+    "reference_url": "https://arxiv.org/abs/1909.05701"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": [
+      "VQLS"
+    ],
+    "description": "Solves small systems of linear equations",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "Rigetti Aspen QPU",
+    "num_qubits": 5,
+    "reference_url": "https://arxiv.org/abs/1909.05820"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": [
+      "QEC"
+    ],
+    "description": "Demonstrates phase gate operations on a logical qubit encoded in a bosonic oscillator",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": null,
+    "reference_url": "https://arxiv.org/abs/1909.06803"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": [
+      "QEC"
+    ],
+    "description": "Implements Steane code",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": [
+      "IBMQ16",
+      "IBMQ20"
+    ],
+    "num_qubits": 20,
+    "reference_url": "https://arxiv.org/abs/1909.07628"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": [
+      "Sim"
+    ],
+    "description": "Simulates quantum-optical systems in the strong coupling regime with variational quantum algorithms",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "IBMQ Poughkeepsie",
+    "num_qubits": 3,
+    "reference_url": "https://arxiv.org/abs/1909.08640"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": [
+      "Benchmark"
+    ],
+    "description": "Demonstrates sprectroscopic technique to extract analyze defects in superconducting qubits",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": null,
+    "reference_url": "https://arxiv.org/abs/1909.09749"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": [
+      "Gates"
+    ],
+    "description": "Realizes abelian-geometric-phase-based nonadiabatic one-qubit gates with an Xmon qubit",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 1,
+    "reference_url": "https://arxiv.org/abs/1909.09970"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": [
+      "Q. Walk"
+    ],
+    "description": "Implements feedback-control method on random quantum walks",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 2,
+    "reference_url": "https://arxiv.org/abs/1909.10022"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": [
+      "Benchmark",
+      "QEC"
+    ],
+    "description": "Presents experiments showing dynamically corrected gates can suppress error correlations in space/time",
+    "qubit_type": "Trapped ion",
+    "qubit_subtype": [
+      "171Yb+"
+    ],
+    "computer": null,
+    "num_qubits": 1,
+    "reference_url": "https://arxiv.org/abs/1909.10727"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": [
+      "Sim."
+    ],
+    "description": "Simulates dynamics of spin clusters via Trotterized evolution",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": [
+      "IBMQX4",
+      "IBMQX14"
+    ],
+    "num_qubits": 14,
+    "reference_url": "https://arxiv.org/abs/1909.10732"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": [
+      "QML"
+    ],
+    "description": "Implements kernel SVM algorithm for classification on OCR and Iris dataset",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "IBMQX2",
+    "num_qubits": 5,
+    "reference_url": "https://arxiv.org/abs/1909.11988"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": [
+      "QKD"
+    ],
+    "description": "Introduces and tests new synchronization procedure for quantum key distribution",
+    "qubit_type": [
+      "Photonic"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": null,
+    "reference_url": "https://arxiv.org/abs/1909.12050"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": [
+      "QML"
+    ],
+    "description": "Implements k-means clustering for Iris and MNIST datasets",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "IBMQX2",
+    "num_qubits": 5,
+    "reference_url": "https://arxiv.org/abs/1909.12183"
+  },
+  {
+    "year": 2019,
+    "month": "Sep",
+    "algorithm": [
+      "Entanglement"
+    ],
+    "description": "Implements experiment to device-independently verify EPR steering",
+    "qubit_type": [
+      "Photonic"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": 4,
+    "reference_url": "https://arxiv.org/abs/1909.13432"
+  },
+  {
+    "year": 2019,
+    "month": "Oct",
+    "algorithm": [
+      "Sim",
+      "QEC"
+    ],
+    "description": "Calculates potential energy surface of hydrogen using [[4, 2, 2]] error-detecting code",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "IBMQ Tokyo",
+    "num_qubits": 6,
+    "reference_url": "https://arxiv.org/abs/1910.00129"
+  },
+  {
+    "year": 2019,
+    "month": "Oct",
+    "algorithm": [
+      "Simon"
+    ],
+    "description": "Implements Simon's period finding algorithm",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "IBM Q 16 Melbourne",
+    "num_qubits": 7,
+    "reference_url": "https://arxiv.org/abs/1910.00802"
+  },
+  {
+    "year": 2019,
+    "month": "Oct",
+    "algorithm": null,
+    "description": "Implements quantum network coding",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": [
+      "IBMQ20 (Tokyo)",
+      "IBMQ Poughkeepsie"
+    ],
+    "num_qubits": 6,
+    "reference_url": "https://arxiv.org/abs/1910.00815"
+  },
+  {
+    "year": 2019,
+    "month": "Oct",
+    "algorithm": [
+      "VQE"
+    ],
+    "description": "Utilizes non-unitary operations in VQE",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": [
+      "IBMQ20 (Tokyo)",
+      "IBM Q Tenerife"
+    ],
+    "num_qubits": 8,
+    "reference_url": "https://arxiv.org/abs/1910.01830"
+  },
+  {
+    "year": 2019,
+    "month": "Oct",
+    "algorithm": [
+      "Qubit"
+    ],
+    "description": "Introduces new superconducting qubit called bifluxon and presents experimental data",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": null,
+    "num_qubits": null,
+    "reference_url": "https://arxiv.org/abs/1910.03769"
+  },
+  {
+    "year": 2019,
+    "month": "Oct",
+    "algorithm": [
+      "VQA"
+    ],
+    "description": "Introduces variational fast forwarding",
+    "qubit_type": [
+      "Superconducting"
+    ],
+    "qubit_subtype": null,
+    "computer": "Rigetti Aspen",
+    "num_qubits": 1,
+    "reference_url": "https://arxiv.org/abs/1910.04292"
+  },
+  {
+    "year": 2019,
+    "month": "Oct",
+    "algorithm": [
+      "VQE"
+    ],
+    "description": "Performs VQE for dynamical mean field theory calculations",
+    "qubit_type": [
+      "Superconducting",
+      "Trapped ion"
+    ],
+    "qubit_subtype": null,
+    "computer": [
+      "IBMQX4"
+    ],
+    "num_qubits": 4,
+    "reference_url": "https://arxiv.org/abs/1910.04735"
+  }
+]

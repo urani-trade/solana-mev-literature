@@ -1,0 +1,304 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>NISQ Algorithm Zoo | Graph</title>
+{% endblock title %}
+
+{% block content %}
+{% include 'partials/navbar.html' %}
+
+
+<!-- End custom style -->
+<style>
+
+  .h5_graph {
+    font-weight: 500;
+    margin-bottom: 15px; 
+    font-size:14px !important; 
+  }
+  .h3_graph {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size:20px !important; 
+  }
+  .btn_graph {
+    background-color: rgb(196, 196, 200);
+    box-shadow: 0 3px 15px -8px #3e3d3f;
+    border: 0px; 
+    color: #212529;
+    border-radius: 15px; 
+    font-weight: 400;
+    font-size:14px;
+    padding: 10px 20px 10px 20px !important;
+    margin-bottom: 15px; 
+    margin-top: 25px; 
+    }
+  input[type='range'] {
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+      outline: none;
+  }
+  input[type='range'],
+  input[type='range']::-webkit-slider-runnable-track,
+  input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+      background: none;
+  }
+  input[type='range']::-webkit-slider-runnable-track {
+    width: 200px;
+    height: 3px;
+    background: #003D7C;
+  }
+  input[type='range']:nth-child(2)::-webkit-slider-runnable-track{
+    background: none;
+  }
+  input[type='range']::-webkit-slider-thumb {
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-top: -6px;
+    background: #fff;
+    border: 1px solid #003D7C;
+    border-radius: 25px;
+    z-index: 1;
+  }
+  input[type='range']:nth-child(1)::-webkit-slider-thumb{
+    z-index: 2;
+  }
+  .rangeslider{
+      position: relative;
+      height: 60px;
+      width: 100%;
+      display: inline-block;
+      margin-top: 8px;
+      margin-left: 0px;
+  }
+  .rangeslider input{
+      position: absolute;
+  }
+  .rangeslider span{
+      position: absolute;
+      margin-top: 30px;
+      left: 0;
+  }
+  .rangeslider .right{
+    position: relative;
+    float: right;
+    margin-right: -5px;
+  }
+  </style>
+<!-- End custom style -->
+
+
+<div class="container pt-5" style="position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);">
+
+  <form class="mt-2" action="." method="GET">
+    
+    <h3 class='h3_graph'>Graph Data</h3>
+    <div class="form-row mt-4">
+      
+
+    <!-- Graph Menu Type -->
+    <div class="col-sm-12 col-md-6">
+        <h5 class='h5_graph'>Select plot type</h5>
+        <select class="form-control zero-border-rad" name="graph_type" id="graphType">
+          <option value="bar">Bar Plot</option>
+          <option value="line">Line Plot</option>
+          <option value="pie">Pie Plot</option>
+          <option value="doughnut">Doughnut Plot</option>
+          <option value="polarArea">Polar area Plot</option>
+        </select>
+      </div>
+     <!-- End Graph Menu Type -->
+
+    <!-- Graph Menu Option -->
+      <div class="col-sm-12 col-md-6">
+        <h5 class='h5_graph'>Select dataset</h5>
+        <select name="data_set" id="dataSet" class="form-control zero-border-rad">
+          <option value="null" selected="true" disabled="disabled">Dataset</option>
+          <option value="max_number_qubits">Maximum # of qubits by year</option>
+          <option value="total_number_qubits">Total # of qubits by year</option>
+          <option value="imp_per_year">Implementations per year</option>
+          <option value="qubits_per_implementation">Qubits per implementation</option>
+            <option value="implementations_per_computer">Implementations per computer</option>
+          <option value="implementations_per_algorithm">Implementations per algorithm</option>
+          <option value="implementations_per_qubit_type">Implementations per qubit type</option>
+        </select>
+      </div>
+    <!-- Enf Graph Menu Option -->
+
+    </div>
+    
+    <!-- Dual year slider -->
+    <div class="form-row mt-4" id="yearRange" style="display: none;">
+      <h5 class='h5_graph'>Select time range</h5>
+
+      <div class="rangeslider">
+        <input id="yearRangeMin" class="min custom" name="min_year" type="range" min="{{min_year}}" max="{{max_year}}" value="{{min_year}}" />
+        <input id="yearRangeMax" class="max custom" name="max_year" type="range" min="{{min_year}}" max="{{max_year}}" value="{{max_year}}" />
+        <span class="range_min light left">{{min_year}}</span>
+        <span class="range_max light right">{{max_year}}</span>
+      </div>
+      <!-- End year slider -->
+
+    </div>
+
+    <!-- Dual implementation slider -->
+    <div class="form-row mt-4" id="impRange" style="display: none;">
+      <h5 class='h5_graph'>Select implementation range</h5>
+
+      
+      <div class="rangeslider">
+        <input id="impRangeMin" class="min custom" name="min_imp_id" type="range" min="1" max="{{num_of_implementations}}" value="1" />
+        <input id="impRangeMax" class="max custom" name="max_imp_id" type="range" min="1" max="{{num_of_implementations}}" value="{{num_of_implementations}}" />
+        <span class="imp_range_min light left">1</span>
+        <span class="imp_range_max light right">{{num_of_implementations}}</span>
+      </div>
+      <!-- Dual implementation slider -->
+
+    </div>
+
+    <!-- Button -->
+    <div >
+      <center>
+            <button class="btn extra-btn-padding btn_graph" type="submit">
+              Show the plot
+            </button>
+      </center>
+    </div>
+     <!-- End Button -->
+
+  </form>
+
+  <div id="graph" class="mt-5">
+    <div class="d-flex" id="graphTitleContainer" style="width: 100%">
+      <h3 id="graphTitle" class="h3_graph">
+        {{graph_title}}
+      </h3>
+      <span style="display: none; margin-top: 34px; margin-left: 16px;" id="downloadLinkContainer">
+        <a id="downloadLink" href="#" download="graph.png">Download graph</a>
+      </span>
+    </div>
+    <canvas class="mb-5 pb-3" id="myChart" width="200" height="100"></canvas>
+  </div>
+</div>
+
+
+<script src="https://image-arxiv.s3.amazonaws.com/dualslider.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+
+<script>
+    var obj = {{json | safe }}
+    var obj2 = {{ max_qubits_per_year | safe }}
+    var keys = Object.keys(obj)
+    var keys2 = Object.keys(obj2)
+    var limit = keys.length
+    var limit2 = keys2.length
+    var data = []
+    var data2 = []
+    var backgroundColor
+    var borderColor
+    var downloadLink = document.getElementById('downloadLink')
+
+     // event listener to add download link on hover
+    $("#graphTitleContainer").hover(function() {
+	    $('#downloadLinkContainer').fadeToggle()
+    })
+
+    function downloadGraph () {
+      var url_base64 = document.getElementById('myChart').toDataURL('image/png');
+      downloadLink.href = url_base64
+    }
+
+    if ('{{graph_type}}' != 'pie' && '{{graph_type}}' != 'polarArea' && '{{graph_type}}' != 'doughnut') {
+      var options =  {
+        scales: {
+          yAxes: [{
+            ticks: {
+              beginAtZero: true
+            }
+          }]
+        },
+        animation: {
+          onComplete: downloadGraph
+        }
+      }
+    } else {
+      var options = {
+        animation: {
+          onComplete: downloadGraph
+        }}
+    }
+
+    function getRandomInt(max) {
+      return Math.floor(Math.random() * Math.floor(max));
+    }
+
+    function genRGBA(alpha) {
+      return `rgba(${getRandomInt(240)}, ${getRandomInt(240)}, ${getRandomInt(240)}, ${alpha})`
+    }
+
+    function colorsArray(arrayLength) {
+      var colorsArray = []
+      for (var i = 0; i < arrayLength; i++) {
+        var backgroundRbgaVal = genRGBA(.2)
+        var borderRbgaVal = genRGBA(.2)
+        colorsArray.push(genRGBA(.2))
+      }
+      return colorsArray
+    }
+
+    function borderColorsArray(colorsArray) {
+      var borderColorsArray = []
+      for (var i = 0; i < colorsArray.length; i++) {
+        borderColorsArray.push(colorsArray[i].replace('0.2', '0.8'))
+      }
+      return borderColorsArray
+    }
+
+    for (var i = 0; i < keys.length; i++) {
+      data.push(obj[keys[i]].count)
+    }
+
+    for (var i = 0; i < keys2.length; i++) {
+      data2.push(obj2[keys2[i]].qubit_count)
+    }
+
+    backgroundColor = colorsArray(limit)
+    borderColor = borderColorsArray(backgroundColor)
+
+    // Add background to canvas/graph element
+    // Sets color to whatever the current body background-color is.
+    var canvasBackgroundColor = window.getComputedStyle(document.body, null).getPropertyValue('background-color')
+    Chart.plugins.register({
+        beforeDraw: function(c) {
+            var ctx = c.chart.ctx;
+            ctx.fillStyle = canvasBackgroundColor;
+            ctx.fillRect(0, 0, c.chart.width, c.chart.height);
+        }
+    });
+
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var myChart = new Chart(ctx, {
+    type: '{{graph_type}}',
+    data: {
+        labels: keys,
+        datasets: [{
+            label: '{{graph_label}}',
+            data: data,  //[12, 19, 3, 5, 2, 3],
+            backgroundColor: backgroundColor,
+            borderColor: borderColor,
+            borderWidth: 1
+        }]
+    },
+    options: options
+});
+</script>
+<script src="https://image-arxiv.s3.amazonaws.com/graphform.js"></script>
+<script src="https://image-arxiv.s3.amazonaws.com/daterangepicker.js"></script>
+{% endblock content %}

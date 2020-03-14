@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+<title>NISQ Algorithm Zoo | About</title>
+{% endblock title %}
+
+{% block content %}
+{% include 'partials/navbar.html' %}
+
+<style>
+    .h2_terms {
+        font-weight: 600;
+        padding-top: 20px; 
+        padding-bottom: 20px; 
+        font-size: 24px; 
+        text-align: center;
+    }
+    .h4_terms {
+        margin-bottom: 20px; 
+        margin-top: 20px; 
+        font-size: 18px; 
+        font-weight: 600;
+    }
+    .h6_terms {
+        margin-bottom: 20px; 
+        margin-top: 20px; 
+        font-size: 14px; 
+        font-weight: 400;
+    }
+    .a_about{
+        color: #6545a4;
+        font-size:16px;
+        text-decoration:none;
+    }
+    .a_about:hover {
+        background-color: #43356D 
+        color: #212529;
+        text-decoration:none;
+    }
+</style>
+
+<div class="container">
+
+<h3 class='h2_terms'>
+    Privacy policy
+</h3>
+
+<h6 class='h6_terms'>
+    
+NISQ Algorithm Zoo is a free resource supported by Unitary Fund. 
+This privacy policy will explain how our organization uses the personal 
+data we collect from you when you use our website.
+</h6>
+
+<h4 class='h4_terms'>
+    What data do we collect?
+</h4>
+
+<h6 class='h6_terms'>
+To create an account we collect your username, email and password 
+(that is stored encrypted).
+
+<br>
+
+To be included in our weekly digest mailing list we just collect your 
+email address.
+
+<br>
+
+We use Google Analytics to analyse the patterns of usage, 
+but we do not connect any personally identifiable information 
+(such as username or email) to individual sessions. 
+So we only store the anonymous behaviour data.
+</h6>
+
+
+<h4 class='h4_terms'>
+    How do we collect your data?
+</h4>
+
+<h6 class='h6_terms'>
+You directly provide most of the data we collect. 
+We collect data and process data when you: register for an account; insert your 
+email to be included in our weekly digest mailing list; use or view the website
+via your browser’s cookies
+</h6>
+
+<h4 class='h4_terms'>
+    How will we use your data?
+</h4>
+
+<h6 class='h6_terms'>
+We use the data to provide the free service of NISQ Algorithm Zoo. 
+In particular, the ability to attribute edits to users and send you updates.
+
+<br>
+
+We do not share your data with any third parties.
+</h6>
+
+<h4 class='h4_terms'>
+    How do we store your data?
+</h4>
+
+<h6 class='h6_terms'>
+We store your data securely in AWS in United States.
+</h6>
+
+<h4 class='h4_terms'>
+    Marketing
+</h4>
+
+
+<h6 class='h6_terms'>
+We do not send any marketing messages, or share your details with any 
+third parties for the purpose of marketing.
+</h6>
+
+</div>
+
+
+{% include 'partials/footer.html' %}
+
+{% endblock content %}
+
+

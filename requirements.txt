@@ -1,0 +1,5 @@
+Django >=2.1,<2.2
+altgraph==0.10.2
+python-dotenv
+psycopg2-binary
+django-s3-storage

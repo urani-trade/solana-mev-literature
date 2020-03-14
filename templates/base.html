@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  {% block title %}
+	<title>NISQ Algorithm Zoo</title>
+  {% endblock title %}
+
+  <!-- Favicon and definitions-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta> <link rel="shortcut icon" type="image/icon" href="https://image-arxiv.s3.amazonaws.com/atom-editor.ico"/></meta>
+
+  <!-- End Favicon and definitions--->
+  <link rel="stylesheet" type="text/css" href="https://image-arxiv.s3.amazonaws.com/daterangepicker.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!-- Bootstrap JS CDN  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  {% block content %}
+  {% endblock content %}
+
+
+  <!-- Start Script codes  -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://image-arxiv.s3.amazonaws.com/main.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19932157-4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-19932157-4');
+    </script>
+  <!-- End Global site tag - Google Analytics -->
+
+<!-- End Script codes  -->
+
+
+</body>
+</html>

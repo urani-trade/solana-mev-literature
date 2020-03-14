@@ -1,0 +1,3542 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$UaFY2ZyisDi4$XuJBP/iCASMezm9QWcVjbcjCnTYjSN4+AJiEfyS7lwQ=",
+    "last_login": "2019-11-17T05:46:10.793Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-11-12T10:25:28.024Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5578ee7qmkmtt6pe24j4gwbypz21tg2y",
+  "fields": {
+    "session_data": "N2Y3OTM0NGFlM2E2OGUyOGNlNWNlOGVhY2RmOGRiNmQ0YWM1ZmNjNDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJiNGE4YTgwMjRiYmMzMDA5OTkwZjg3NDZlOWRiMTM0YmNiZmJlYmUwIn0=",
+    "expire_date": "2019-11-26T10:25:59.436Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hc7ok1f4jd0ufk58a7ovqot490wiv29x",
+  "fields": {
+    "session_data": "N2Y3OTM0NGFlM2E2OGUyOGNlNWNlOGVhY2RmOGRiNmQ0YWM1ZmNjNDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJiNGE4YTgwMjRiYmMzMDA5OTkwZjg3NDZlOWRiMTM0YmNiZmJlYmUwIn0=",
+    "expire_date": "2019-12-01T05:46:10.851Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vgizy152j7xk6m07vf7c2v0t9m79sg7r",
+  "fields": {
+    "session_data": "N2Y3OTM0NGFlM2E2OGUyOGNlNWNlOGVhY2RmOGRiNmQ0YWM1ZmNjNDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJiNGE4YTgwMjRiYmMzMDA5OTkwZjg3NDZlOWRiMTM0YmNiZmJlYmUwIn0=",
+    "expire_date": "2019-12-01T03:34:32.774Z"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 1,
+  "fields": {
+    "type": "Verification"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 2,
+  "fields": {
+    "type": "VQA"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 3,
+  "fields": {
+    "type": "SVM"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 4,
+  "fields": {
+    "type": "Mermin inequalties"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 5,
+  "fields": {
+    "type": "BV"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 6,
+  "fields": {
+    "type": "Multiple"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 7,
+  "fields": {
+    "type": "Scrambling"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 8,
+  "fields": {
+    "type": "HS"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 9,
+  "fields": {
+    "type": "QKD"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 10,
+  "fields": {
+    "type": "QSE"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 11,
+  "fields": {
+    "type": "Shor"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 12,
+  "fields": {
+    "type": "QLanczos"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 13,
+  "fields": {
+    "type": "Simon"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 14,
+  "fields": {
+    "type": "Sim"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 15,
+  "fields": {
+    "type": "QML"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 16,
+  "fields": {
+    "type": "Q. Walk"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 17,
+  "fields": {
+    "type": "QFT"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 18,
+  "fields": {
+    "type": "QPE"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 19,
+  "fields": {
+    "type": "QAQC"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 20,
+  "fields": {
+    "type": "Benchmark"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 21,
+  "fields": {
+    "type": "Sim."
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 22,
+  "fields": {
+    "type": "Entanglement"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 23,
+  "fields": {
+    "type": "QEC"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 24,
+  "fields": {
+    "type": "VQSD"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 25,
+  "fields": {
+    "type": "Grover"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 26,
+  "fields": {
+    "type": "Qubit"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 27,
+  "fields": {
+    "type": "DJ"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 28,
+  "fields": {
+    "type": "VQE"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 29,
+  "fields": {
+    "type": "VQLS"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 30,
+  "fields": {
+    "type": "Order finding"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 31,
+  "fields": {
+    "type": "Gates"
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 32,
+  "fields": {
+    "type": "S.O."
+  }
+},
+{
+  "model": "implementations.algorithm",
+  "pk": 33,
+  "fields": {
+    "type": "QITE"
+  }
+},
+{
+  "model": "implementations.qubitsubtype",
+  "pk": 1,
+  "fields": {
+    "type": "9Be+"
+  }
+},
+{
+  "model": "implementations.qubitsubtype",
+  "pk": 2,
+  "fields": {
+    "type": "171Yb+"
+  }
+},
+{
+  "model": "implementations.qubitsubtype",
+  "pk": 3,
+  "fields": {
+    "type": "111Cd+"
+  }
+},
+{
+  "model": "implementations.qubitsubtype",
+  "pk": 4,
+  "fields": {
+    "type": "40Ca+"
+  }
+},
+{
+  "model": "implementations.qubittype",
+  "pk": 1,
+  "fields": {
+    "type": "atom"
+  }
+},
+{
+  "model": "implementations.qubittype",
+  "pk": 2,
+  "fields": {
+    "type": "Neutral atom"
+  }
+},
+{
+  "model": "implementations.qubittype",
+  "pk": 3,
+  "fields": {
+    "type": "Photonic"
+  }
+},
+{
+  "model": "implementations.qubittype",
+  "pk": 4,
+  "fields": {
+    "type": "Photon"
+  }
+},
+{
+  "model": "implementations.qubittype",
+  "pk": 5,
+  "fields": {
+    "type": "Ion trap"
+  }
+},
+{
+  "model": "implementations.qubittype",
+  "pk": 6,
+  "fields": {
+    "type": "NV Center"
+  }
+},
+{
+  "model": "implementations.qubittype",
+  "pk": 7,
+  "fields": {
+    "type": "Trapped ion"
+  }
+},
+{
+  "model": "implementations.qubittype",
+  "pk": 8,
+  "fields": {
+    "type": "Superconducting"
+  }
+},
+{
+  "model": "implementations.qubittype",
+  "pk": 9,
+  "fields": {
+    "type": "Linear optics"
+  }
+},
+{
+  "model": "implementations.qubittype",
+  "pk": 10,
+  "fields": {
+    "type": "NMR"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 1,
+  "fields": {
+    "computer_type": "Rigetti 19Q-Acorn"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 2,
+  "fields": {
+    "computer_type": "IBMQX2"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 3,
+  "fields": {
+    "computer_type": "IBMQX1"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 4,
+  "fields": {
+    "computer_type": "IBMQX3"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 5,
+  "fields": {
+    "computer_type": "IBMQX14"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 6,
+  "fields": {
+    "computer_type": "Rigetti 8Q-Agave"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 7,
+  "fields": {
+    "computer_type": "Rigetti Aspen QPU"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 8,
+  "fields": {
+    "computer_type": "IBMQ 16"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 9,
+  "fields": {
+    "computer_type": "IBM Q Tenerife"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 10,
+  "fields": {
+    "computer_type": "Rigetti Aspen"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 11,
+  "fields": {
+    "computer_type": "IBM Q Experience"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 12,
+  "fields": {
+    "computer_type": "IBMQ20"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 14,
+  "fields": {
+    "computer_type": "IBMQ Poughkeepsie"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 15,
+  "fields": {
+    "computer_type": "Trimon"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 16,
+  "fields": {
+    "computer_type": "IBMQX4"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 17,
+  "fields": {
+    "computer_type": "IBMQX5"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 18,
+  "fields": {
+    "computer_type": "IBMQ Tokyo"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 19,
+  "fields": {
+    "computer_type": "IBMQ"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 20,
+  "fields": {
+    "computer_type": "IonQ"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 21,
+  "fields": {
+    "computer_type": "IBMQ20 (Tokyo)"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 22,
+  "fields": {
+    "computer_type": "IBMQ16"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 23,
+  "fields": {
+    "computer_type": "IBM Q 16 Melbourne"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 25,
+  "fields": {
+    "computer_type": "IBMQ25"
+  }
+},
+{
+  "model": "implementations.quantumcomputer",
+  "pk": 26,
+  "fields": {
+    "computer_type": "IBMQ25"
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 1,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:40.971Z",
+    "submitted_by": 1,
+    "year": "1997",
+    "year_int": 1997,
+    "month": "Aug",
+    "description": "Implemented gates (XOR, Toffoli), prepared entangled state",
+    "qubit_number": 3,
+    "reference_url": "https://arxiv.org/abs/quant-ph/9709001",
+    "approved": true,
+    "algorithm": [],
+    "qubit_type": [
+      10
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 2,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:41.131Z",
+    "submitted_by": 1,
+    "year": "1997",
+    "year_int": 1997,
+    "month": "Oct",
+    "description": "Implemented gates (Rotation, CNOT), prepared entangled state",
+    "qubit_number": 2,
+    "reference_url": null,
+    "approved": true,
+    "algorithm": [],
+    "qubit_type": [
+      10
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 3,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:41.273Z",
+    "submitted_by": 1,
+    "year": "1997",
+    "year_int": 1997,
+    "month": "Nov",
+    "description": "Executed Grover's algorithm on two qubits.",
+    "qubit_number": 2,
+    "reference_url": "Paper",
+    "approved": true,
+    "algorithm": [
+      25
+    ],
+    "qubit_type": [
+      10
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 4,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:41.515Z",
+    "submitted_by": 1,
+    "year": "1998",
+    "year_int": 1998,
+    "month": "Jan",
+    "description": "Executed DJ algorithm on NMR quantum computer",
+    "qubit_number": 2,
+    "reference_url": "https://arxiv.org/abs/quant-ph/9801027",
+    "approved": true,
+    "algorithm": [
+      27
+    ],
+    "qubit_type": [
+      10
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 5,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:41.814Z",
+    "submitted_by": 1,
+    "year": "1998",
+    "year_int": 1998,
+    "month": "Feb",
+    "description": "Implemented 3-bit code for phase errors in liquid state NMR",
+    "qubit_number": 3,
+    "reference_url": "https://arxiv.org/abs/quant-ph/9802018",
+    "approved": true,
+    "algorithm": [
+      23
+    ],
+    "qubit_type": [
+      10
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 6,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:42.099Z",
+    "submitted_by": 1,
+    "year": "1998",
+    "year_int": 1998,
+    "month": "Aug",
+    "description": "Executed DJ algorithm on NMR quantum computer",
+    "qubit_number": 3,
+    "reference_url": "https://arxiv.org/abs/quant-ph/9808039",
+    "approved": true,
+    "algorithm": [
+      27
+    ],
+    "qubit_type": [
+      10
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 7,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:42.440Z",
+    "submitted_by": 1,
+    "year": "2000",
+    "year_int": 2000,
+    "month": "Mar",
+    "description": "Executed DJ algorithm on NMR quantum computer",
+    "qubit_number": 3,
+    "reference_url": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.61.042306",
+    "approved": true,
+    "algorithm": [
+      27
+    ],
+    "qubit_type": [
+      10
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 8,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:42.704Z",
+    "submitted_by": 1,
+    "year": "2000",
+    "year_int": 2000,
+    "month": "Mar",
+    "description": "Experimental entanglement of four particles",
+    "qubit_number": 4,
+    "reference_url": "PDF",
+    "approved": true,
+    "algorithm": [
+      22
+    ],
+    "qubit_type": [
+      7
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 9,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:42.978Z",
+    "submitted_by": 1,
+    "year": "2000",
+    "year_int": 2000,
+    "month": "Apr",
+    "description": "Coherent manipulations of seven qubits",
+    "qubit_number": 7,
+    "reference_url": "PDF",
+    "approved": true,
+    "algorithm": [
+      20
+    ],
+    "qubit_type": [
+      10
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 10,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:43.254Z",
+    "submitted_by": 1,
+    "year": "2000",
+    "year_int": 2000,
+    "month": "June",
+    "description": "Executed DJ algorithm on NMR quantum computer",
+    "qubit_number": null,
+    "reference_url": "https://aip.scitation.org/doi/10.1063/1.482015",
+    "approved": true,
+    "algorithm": [
+      27
+    ],
+    "qubit_type": [
+      10
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 11,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:43.523Z",
+    "submitted_by": 1,
+    "year": "2000",
+    "year_int": 2000,
+    "month": "June",
+    "description": "Executed DJ algorithm on NMR quantum computer",
+    "qubit_number": 4,
+    "reference_url": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.62.012310",
+    "approved": true,
+    "algorithm": [
+      27
+    ],
+    "qubit_type": [
+      10
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 12,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:43.807Z",
+    "submitted_by": 1,
+    "year": "2000",
+    "year_int": 2000,
+    "month": "July",
+    "description": "Experimental realization of order finding",
+    "qubit_number": 5,
+    "reference_url": "https://arxiv.org/abs/quant-ph/0007017",
+    "approved": true,
+    "algorithm": [
+      30
+    ],
+    "qubit_type": [
+      10
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 13,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:44.089Z",
+    "submitted_by": 1,
+    "year": "2000",
+    "year_int": 2000,
+    "month": "Dec",
+    "description": "Executed BV algorithm on an ensemble quantum computer",
+    "qubit_number": 2,
+    "reference_url": "https://arxiv.org/abs/quant-ph/0012114",
+    "approved": true,
+    "algorithm": [
+      5
+    ],
+    "qubit_type": [
+      10
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 14,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:44.471Z",
+    "submitted_by": 1,
+    "year": "2001",
+    "year_int": 2001,
+    "month": "June",
+    "description": "Experimental demonstration of five qubit code",
+    "qubit_number": 5,
+    "reference_url": "https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.86.5811",
+    "approved": true,
+    "algorithm": [
+      23
+    ],
+    "qubit_type": [
+      10
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 15,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:44.798Z",
+    "submitted_by": 1,
+    "year": "2001",
+    "year_int": 2001,
+    "month": "Sep",
+    "description": "Executed BV algorithm",
+    "qubit_number": 2,
+    "reference_url": "https://arxiv.org/abs/quant-ph/0012114",
+    "approved": true,
+    "algorithm": [
+      5
+    ],
+    "qubit_type": [
+      10
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 16,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:45.074Z",
+    "submitted_by": 1,
+    "year": "2001",
+    "year_int": 2001,
+    "month": "Dec",
+    "description": "Factor 15",
+    "qubit_number": 7,
+    "reference_url": "https://arxiv.org/abs/quant-ph/0112176",
+    "approved": true,
+    "algorithm": [
+      11
+    ],
+    "qubit_type": [
+      10
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 17,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:45.441Z",
+    "submitted_by": 1,
+    "year": "2003",
+    "year_int": 2003,
+    "month": "Jan",
+    "description": "Implement DJ and BV on",
+    "qubit_number": 3,
+    "reference_url": "Paper",
+    "approved": true,
+    "algorithm": [
+      5,
+      27
+    ],
+    "qubit_type": [
+      9
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 18,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:45.682Z",
+    "submitted_by": 1,
+    "year": "2003",
+    "year_int": 2003,
+    "month": "Feb",
+    "description": "Executed DJ on ion-trap quantum computer",
+    "qubit_number": 1,
+    "reference_url": "Paper",
+    "approved": true,
+    "algorithm": [
+      27
+    ],
+    "qubit_type": [
+      7
+    ],
+    "qubit_subtype": [
+      4
+    ],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 19,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:46.015Z",
+    "submitted_by": 1,
+    "year": "2004",
+    "year_int": 2004,
+    "month": "Dec",
+    "description": "Demonstrates 3 qubit code for spin flip errors",
+    "qubit_number": 3,
+    "reference_url": "PDF",
+    "approved": true,
+    "algorithm": [
+      23
+    ],
+    "qubit_type": [
+      7
+    ],
+    "qubit_subtype": [
+      1
+    ],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 20,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:46.307Z",
+    "submitted_by": 1,
+    "year": "2005",
+    "year_int": 2005,
+    "month": "May",
+    "description": "Semi-classical QFT",
+    "qubit_number": 3,
+    "reference_url": "https://science.sciencemag.org/content/308/5724/997",
+    "approved": true,
+    "algorithm": [
+      17
+    ],
+    "qubit_type": [
+      7
+    ],
+    "qubit_subtype": [
+      1
+    ],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 21,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:46.649Z",
+    "submitted_by": 1,
+    "year": "2005",
+    "year_int": 2005,
+    "month": "Sep",
+    "description": "Implemented multiple algorithms on NMR quantum computer",
+    "qubit_number": null,
+    "reference_url": "https://arxiv.org/abs/quant-ph/0509046",
+    "approved": true,
+    "algorithm": [
+      25,
+      27
+    ],
+    "qubit_type": [
+      10
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 22,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:46.982Z",
+    "submitted_by": 1,
+    "year": "2005",
+    "year_int": 2005,
+    "month": "Oct",
+    "description": "Executed Grover's algorithm on two trapped ion qubits",
+    "qubit_number": null,
+    "reference_url": null,
+    "approved": true,
+    "algorithm": [
+      25
+    ],
+    "qubit_type": [
+      7
+    ],
+    "qubit_subtype": [
+      3
+    ],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 23,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:47.341Z",
+    "submitted_by": 1,
+    "year": "2007",
+    "year_int": 2007,
+    "month": "May",
+    "description": "Factor 15",
+    "qubit_number": 4,
+    "reference_url": null,
+    "approved": true,
+    "algorithm": [
+      11
+    ],
+    "qubit_type": [
+      3
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 24,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:47.633Z",
+    "submitted_by": 1,
+    "year": "2007",
+    "year_int": 2007,
+    "month": "Apr",
+    "description": "Factor 15",
+    "qubit_number": 4,
+    "reference_url": "PDF",
+    "approved": true,
+    "algorithm": [
+      11
+    ],
+    "qubit_type": [
+      3
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 25,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:47.949Z",
+    "submitted_by": 1,
+    "year": "2009",
+    "year_int": 2009,
+    "month": "Mar",
+    "description": "Executed Grover and DJ algorithm on superconducting processor",
+    "qubit_number": 2,
+    "reference_url": "https://arxiv.org/abs/0903.2030",
+    "approved": true,
+    "algorithm": [
+      25,
+      27
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 26,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:48.232Z",
+    "submitted_by": 1,
+    "year": "2009",
+    "year_int": 2009,
+    "month": "Nov",
+    "description": "Factor 15",
+    "qubit_number": 4,
+    "reference_url": "https://arxiv.org/abs/0911.1242",
+    "approved": true,
+    "algorithm": [
+      11
+    ],
+    "qubit_type": [
+      3
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 27,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:48.471Z",
+    "submitted_by": 1,
+    "year": "2010",
+    "year_int": 2010,
+    "month": "Feb",
+    "description": "Implemented DJ algorithm with single electronic spin in diamond",
+    "qubit_number": 1,
+    "reference_url": "https://arxiv.org/abs/1002.2465",
+    "approved": true,
+    "algorithm": [
+      27
+    ],
+    "qubit_type": [
+      6
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 28,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:48.758Z",
+    "submitted_by": 1,
+    "year": "2011",
+    "year_int": 2011,
+    "month": "May",
+    "description": "Implements multiple QEC codes",
+    "qubit_number": null,
+    "reference_url": "Abstract",
+    "approved": true,
+    "algorithm": [
+      23
+    ],
+    "qubit_type": [
+      7
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 29,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:49.049Z",
+    "submitted_by": 1,
+    "year": "2011",
+    "year_int": 2011,
+    "month": "Sep",
+    "description": "Realization of 3 qubit bit (phase) flip code",
+    "qubit_number": 3,
+    "reference_url": "https://arxiv.org/abs/1109.4948",
+    "approved": true,
+    "algorithm": [
+      23
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 30,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:49.307Z",
+    "submitted_by": 1,
+    "year": "2011",
+    "year_int": 2011,
+    "month": "Nov",
+    "description": "Factor 21",
+    "qubit_number": 2,
+    "reference_url": "https://arxiv.org/abs/1111.4147",
+    "approved": true,
+    "algorithm": [
+      11
+    ],
+    "qubit_type": [
+      3
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 31,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:49.591Z",
+    "submitted_by": 1,
+    "year": "2012",
+    "year_int": 2012,
+    "month": "Feb",
+    "description": "Perform quantum process tomography on universal gate set",
+    "qubit_number": 2,
+    "reference_url": "https://arxiv.org/abs/1202.5344",
+    "approved": true,
+    "algorithm": [
+      20
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 32,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:49.850Z",
+    "submitted_by": 1,
+    "year": "2013",
+    "year_int": 2013,
+    "month": "Apr",
+    "description": "Compute ground state energy of He-H+",
+    "qubit_number": 2,
+    "reference_url": "https://arxiv.org/abs/1304.3061",
+    "approved": true,
+    "algorithm": [
+      28
+    ],
+    "qubit_type": [
+      3
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 33,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:50.088Z",
+    "submitted_by": 1,
+    "year": "2014",
+    "year_int": 2014,
+    "month": "Jan",
+    "description": "Gate implementations and entangled state preparation",
+    "qubit_number": 5,
+    "reference_url": "https://arxiv.org/abs/1401.1575",
+    "approved": true,
+    "algorithm": [],
+    "qubit_type": [
+      7
+    ],
+    "qubit_subtype": [
+      2
+    ],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 34,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:50.231Z",
+    "submitted_by": 1,
+    "year": "2015",
+    "year_int": 2015,
+    "month": "Jan",
+    "description": "Randomized benchmarking of single qubit gates",
+    "qubit_number": 49,
+    "reference_url": "https://arxiv.org/abs/1501.02041",
+    "approved": true,
+    "algorithm": [
+      20
+    ],
+    "qubit_type": [
+      2
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 35,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:50.530Z",
+    "submitted_by": 1,
+    "year": "2015",
+    "year_int": 2015,
+    "month": "Feb",
+    "description": "Quantum simulation of Heisenberg and Ising models.",
+    "qubit_number": 2,
+    "reference_url": "https://arxiv.org/abs/1502.06778",
+    "approved": true,
+    "algorithm": [
+      14
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 36,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:50.782Z",
+    "submitted_by": 1,
+    "year": "2015",
+    "year_int": 2015,
+    "month": "Apr",
+    "description": "Demonstration of quantum error detection protocol",
+    "qubit_number": 4,
+    "reference_url": "https://www.nature.com/articles/ncomms7979",
+    "approved": true,
+    "algorithm": [
+      23
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 37,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:51.042Z",
+    "submitted_by": 1,
+    "year": "2015",
+    "year_int": 2015,
+    "month": "July",
+    "description": "Factor 15",
+    "qubit_number": 5,
+    "reference_url": "https://arxiv.org/abs/1507.08852",
+    "approved": true,
+    "algorithm": [
+      11
+    ],
+    "qubit_type": [
+      7
+    ],
+    "qubit_subtype": [
+      4
+    ],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 38,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:51.276Z",
+    "submitted_by": 1,
+    "year": "2015",
+    "year_int": 2015,
+    "month": "Dec",
+    "description": "Compute energy surface of molecular Hydrogen",
+    "qubit_number": 3,
+    "reference_url": "https://arxiv.org/abs/1512.06860",
+    "approved": true,
+    "algorithm": [
+      18,
+      28
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 39,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:51.574Z",
+    "submitted_by": 1,
+    "year": "2016",
+    "year_int": 2016,
+    "month": "Mar",
+    "description": "Executes single and two-qubit gates",
+    "qubit_number": 2,
+    "reference_url": "https://arxiv.org/abs/1604.00032",
+    "approved": true,
+    "algorithm": [
+      20
+    ],
+    "qubit_type": [
+      7
+    ],
+    "qubit_subtype": [
+      1
+    ],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 40,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:51.823Z",
+    "submitted_by": 1,
+    "year": "2016",
+    "year_int": 2016,
+    "month": "Mar",
+    "description": "Execute DJ, BV, and QFT algorithms",
+    "qubit_number": 5,
+    "reference_url": "https://arxiv.org/abs/1603.04512",
+    "approved": true,
+    "algorithm": [
+      5,
+      17,
+      27
+    ],
+    "qubit_type": [
+      7
+    ],
+    "qubit_subtype": [
+      2
+    ],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 41,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:52.064Z",
+    "submitted_by": 1,
+    "year": "2016",
+    "year_int": 2016,
+    "month": "Mar",
+    "description": "Implements BV algorithm",
+    "qubit_number": 3,
+    "reference_url": "https://arxiv.org/abs/1603.05672",
+    "approved": true,
+    "algorithm": [
+      5
+    ],
+    "qubit_type": [
+      7
+    ],
+    "qubit_subtype": [
+      2
+    ],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 42,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:52.297Z",
+    "submitted_by": 1,
+    "year": "2016",
+    "year_int": 2016,
+    "month": "May",
+    "description": "Experimental test of Mermin inequalities",
+    "qubit_number": 5,
+    "reference_url": "https://arxiv.org/abs/1605.04220",
+    "approved": true,
+    "algorithm": [
+      4
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      11
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 43,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:52.649Z",
+    "submitted_by": 1,
+    "year": "2016",
+    "year_int": 2016,
+    "month": "May",
+    "description": "Executes QEC, arithmetic, etc.",
+    "qubit_number": 5,
+    "reference_url": "https://arxiv.org/abs/1605.05709",
+    "approved": true,
+    "algorithm": [
+      6
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      11
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 44,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:53.025Z",
+    "submitted_by": 1,
+    "year": "2016",
+    "year_int": 2016,
+    "month": "Aug",
+    "description": "Demonstrates a method to optimize encoding procedure for small error correction code",
+    "qubit_number": 7,
+    "reference_url": "https://arxiv.org/abs/1603.00402",
+    "approved": true,
+    "algorithm": [
+      23
+    ],
+    "qubit_type": [
+      5
+    ],
+    "qubit_subtype": [
+      4
+    ],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 45,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:53.416Z",
+    "submitted_by": 1,
+    "year": "2017",
+    "year_int": 2017,
+    "month": "May",
+    "description": "Sampling from states prepared with the [[4, 2, 2]] code",
+    "qubit_number": 5,
+    "reference_url": "https://arxiv.org/abs/1705.08957",
+    "approved": true,
+    "algorithm": [
+      23
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      16
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 46,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:53.835Z",
+    "submitted_by": 1,
+    "year": "2017",
+    "year_int": 2017,
+    "month": "May",
+    "description": "Demonstrates fault-tolerant state preparation",
+    "qubit_number": 5,
+    "reference_url": "https://arxiv.org/abs/1705.09259",
+    "approved": true,
+    "algorithm": [
+      23
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 47,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:54.158Z",
+    "submitted_by": 1,
+    "year": "2017",
+    "year_int": 2017,
+    "month": "June",
+    "description": "Multiple benchmarking circuits",
+    "qubit_number": 5,
+    "reference_url": "https://arxiv.org/abs/1706.04341",
+    "approved": true,
+    "algorithm": [
+      20
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      4
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 48,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:54.525Z",
+    "submitted_by": 1,
+    "year": "2017",
+    "year_int": 2017,
+    "month": "Aug",
+    "description": "Experimental realization of error correction for Bell and GHZ states",
+    "qubit_number": 5,
+    "reference_url": "https://arxiv.org/abs/1708.02297",
+    "approved": true,
+    "algorithm": [
+      23
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 49,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:54.831Z",
+    "submitted_by": 1,
+    "year": "2017",
+    "year_int": 2017,
+    "month": "Sep",
+    "description": "Repetition code of 15 qubits.",
+    "qubit_number": 15,
+    "reference_url": "https://arxiv.org/abs/1709.00990",
+    "approved": true,
+    "algorithm": [
+      23
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      4
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 50,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:55.306Z",
+    "submitted_by": 1,
+    "year": "2018",
+    "year_int": 2018,
+    "month": "Jan",
+    "description": "Demonstrates graph states on 8-16 qubits are fully entangled",
+    "qubit_number": 16,
+    "reference_url": "https://arxiv.org/abs/1801.03782",
+    "approved": true,
+    "algorithm": [
+      20
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      17
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 51,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:55.758Z",
+    "submitted_by": 1,
+    "year": "2018",
+    "year_int": 2018,
+    "month": "Jan",
+    "description": "Computes energy landscapes of deuteron",
+    "qubit_number": 3,
+    "reference_url": "https://arxiv.org/abs/1801.03897",
+    "approved": true,
+    "algorithm": [
+      28
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      1,
+      17
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 52,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:56.117Z",
+    "submitted_by": 1,
+    "year": "2018",
+    "year_int": 2018,
+    "month": "Feb",
+    "description": "Compute ground/excited states of H2",
+    "qubit_number": 2,
+    "reference_url": "PRX PDF",
+    "approved": true,
+    "algorithm": [
+      10,
+      28
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 53,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:56.482Z",
+    "submitted_by": 1,
+    "year": "2018",
+    "year_int": 2018,
+    "month": "Mar",
+    "description": "Compute state overlap for one-qubit states",
+    "qubit_number": 2,
+    "reference_url": "https://arxiv.org/abs/1803.04114",
+    "approved": true,
+    "algorithm": [
+      32
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      1,
+      16
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 54,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:56.908Z",
+    "submitted_by": 1,
+    "year": "2018",
+    "year_int": 2018,
+    "month": "Apr",
+    "description": "Grover, BV, Shor, HHL, persistent homology, ... (cont. below)",
+    "qubit_number": 5,
+    "reference_url": "https://arxiv.org/abs/1804.03719",
+    "approved": true,
+    "algorithm": [
+      6
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      16,
+      17
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 55,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:57.359Z",
+    "submitted_by": 1,
+    "year": "2018",
+    "year_int": 2018,
+    "month": "Apr",
+    "description": "Min. spanning tree, QAOA, qPCA, qSVM, Schrodinger's eqn. simulation, state preparation, state tomography",
+    "qubit_number": 5,
+    "reference_url": "https://arxiv.org/abs/1804.03719",
+    "approved": true,
+    "algorithm": [
+      6
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      16,
+      17
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 56,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:57.759Z",
+    "submitted_by": 1,
+    "year": "2018",
+    "year_int": 2018,
+    "month": "Apr",
+    "description": "Classify two-dimensional data",
+    "qubit_number": 2,
+    "reference_url": "https://arxiv.org/abs/1804.11326",
+    "approved": true,
+    "algorithm": [
+      3
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 57,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:58.040Z",
+    "submitted_by": 1,
+    "year": "2018",
+    "year_int": 2018,
+    "month": "June",
+    "description": "Randomized benchmarking",
+    "qubit_number": 19,
+    "reference_url": "https://arxiv.org/abs/1806.02736",
+    "approved": true,
+    "algorithm": [
+      20
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      1,
+      6,
+      16,
+      17
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 58,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:58.426Z",
+    "submitted_by": 1,
+    "year": "2018",
+    "year_int": 2018,
+    "month": "June",
+    "description": "Application of quantum scrambling in Rydberg atom",
+    "qubit_number": 5,
+    "reference_url": "https://arxiv.org/abs/1806.00781",
+    "approved": true,
+    "algorithm": [
+      7
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      16
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 59,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:58.818Z",
+    "submitted_by": 1,
+    "year": "2018",
+    "year_int": 2018,
+    "month": "June",
+    "description": "Randomized benchmarking on [4, 2, 2] code",
+    "qubit_number": 4,
+    "reference_url": "https://arxiv.org/abs/1806.02359",
+    "approved": true,
+    "algorithm": [
+      23
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      17
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 60,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:59.259Z",
+    "submitted_by": 1,
+    "year": "2018",
+    "year_int": 2018,
+    "month": "July",
+    "description": "Compile quantum algorithms",
+    "qubit_number": 2,
+    "reference_url": "https://arxiv.org/abs/1807.00800",
+    "approved": true,
+    "algorithm": [
+      19
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      2,
+      3,
+      6
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 61,
+  "fields": {
+    "timestamp": "2019-11-12T11:31:59.676Z",
+    "submitted_by": 1,
+    "year": "2018",
+    "year_int": 2018,
+    "month": "July",
+    "description": "Quantum error detection for (2n + 1)-qubit entangled states",
+    "qubit_number": 13,
+    "reference_url": "https://arxiv.org/abs/1807.02883",
+    "approved": true,
+    "algorithm": [
+      23
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      17
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 62,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:00.034Z",
+    "submitted_by": 1,
+    "year": "2018",
+    "year_int": 2018,
+    "month": "July",
+    "description": "Simulates spin-boson model",
+    "qubit_number": 5,
+    "reference_url": "https://arxiv.org/abs/1807.00323",
+    "approved": true,
+    "algorithm": [
+      14
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      16
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 63,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:00.399Z",
+    "submitted_by": 1,
+    "year": "2018",
+    "year_int": 2018,
+    "month": "Sep",
+    "description": "Implemented DJ, BV, QFT, and Grover on three qubits",
+    "qubit_number": 3,
+    "reference_url": "https://arxiv.org/abs/1809.00668",
+    "approved": true,
+    "algorithm": [
+      5,
+      17,
+      27
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      15
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 64,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:00.792Z",
+    "submitted_by": 1,
+    "year": "2018",
+    "year_int": 2018,
+    "month": "Oct",
+    "description": "Diagonalize a 2x2 matrix",
+    "qubit_number": 1,
+    "reference_url": "https://arxiv.org/abs/1810.10506",
+    "approved": true,
+    "algorithm": [
+      24
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      6
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 65,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:01.174Z",
+    "submitted_by": 1,
+    "year": "2018",
+    "year_int": 2018,
+    "month": "Nov",
+    "description": "Introduces and computes quantum volume on several computers",
+    "qubit_number": 16,
+    "reference_url": "https://arxiv.org/abs/1811.12926",
+    "approved": true,
+    "algorithm": [
+      20
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      19
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 66,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:01.593Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Jan",
+    "description": "Compute ground state energy of TFIM using two novel algorithms",
+    "qubit_number": 2,
+    "reference_url": "https://arxiv.org/abs/1901.07653",
+    "approved": true,
+    "algorithm": [
+      12,
+      33
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      7
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 67,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:02.067Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Feb",
+    "description": "Compute ground state energy of H20",
+    "qubit_number": 11,
+    "reference_url": "https://arxiv.org/abs/1902.10171",
+    "approved": true,
+    "algorithm": [
+      28
+    ],
+    "qubit_type": [
+      7
+    ],
+    "qubit_subtype": [
+      2
+    ],
+    "computer": [
+      20
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 68,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:02.593Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Mar",
+    "description": "Execute BV and HS algorithms",
+    "qubit_number": 11,
+    "reference_url": "https://arxiv.org/abs/1905.09294",
+    "approved": true,
+    "algorithm": [
+      5,
+      8
+    ],
+    "qubit_type": [
+      5
+    ],
+    "qubit_subtype": [
+      2
+    ],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 69,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:02.920Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Mar",
+    "description": "Executes randomized benchmarking with \"error-aware\" compiling",
+    "qubit_number": 16,
+    "reference_url": "https://arxiv.org/abs/1903.10963v1",
+    "approved": true,
+    "algorithm": [
+      20
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      22
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 70,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:03.343Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "May",
+    "description": "Demonstrates protocol for simultaneous entanglement generation of arbitrary qubit pairs",
+    "qubit_number": 11,
+    "reference_url": "https://arxiv.org/abs/1905.09294",
+    "approved": true,
+    "algorithm": [],
+    "qubit_type": [
+      5
+    ],
+    "qubit_subtype": [
+      2
+    ],
+    "computer": [
+      20
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 71,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:03.719Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "June",
+    "description": "Hamiltonian simulation for many-body dynamics",
+    "qubit_number": 10,
+    "reference_url": "https://arxiv.org/abs/1906.06343",
+    "approved": true,
+    "algorithm": [
+      21
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      12
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 72,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:04.126Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Aug",
+    "description": "Entanglement generation in two-dimensional neutral atom qubit array; benchmark",
+    "qubit_number": null,
+    "reference_url": "https://arxiv.org/abs/1908.06103",
+    "approved": true,
+    "algorithm": [],
+    "qubit_type": [
+      2
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 73,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:04.351Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Aug",
+    "description": "Parallel implementation of multi-qubit gates; benchmark",
+    "qubit_number": 10,
+    "reference_url": "https://arxiv.org/abs/1908.06101",
+    "approved": true,
+    "algorithm": [],
+    "qubit_type": [
+      2
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 74,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:04.535Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Aug",
+    "description": "Simulates SU(2) non-abelian gauge field theory in one dimension",
+    "qubit_number": 4,
+    "reference_url": "https://arxiv.org/abs/1908.06935",
+    "approved": true,
+    "algorithm": [
+      21
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      12
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 75,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:04.943Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Aug",
+    "description": "Solves small optimization problems",
+    "qubit_number": 10,
+    "reference_url": "https://arxiv.org/abs/1908.08054",
+    "approved": true,
+    "algorithm": [
+      15
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      7
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 76,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:05.318Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Generates and observes entanglement between an Rb-87 atom and a photon at telecom wavelength over 20 km optical fiber",
+    "qubit_number": 2,
+    "reference_url": "https://arxiv.org/abs/1909.01006",
+    "approved": true,
+    "algorithm": [],
+    "qubit_type": [
+      3
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 77,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:05.494Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Presents measurements of experiment-theory fidelities for entangled 10-qubit quantum states",
+    "qubit_number": 10,
+    "reference_url": "https://arxiv.org/abs/1909.01282",
+    "approved": true,
+    "algorithm": [
+      1
+    ],
+    "qubit_type": [
+      5
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 78,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:05.740Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Realizes memory-enhanced quantum communication",
+    "qubit_number": 6,
+    "reference_url": "https://arxiv.org/abs/1909.01323",
+    "approved": true,
+    "algorithm": [],
+    "qubit_type": [
+      3
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 79,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:05.918Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Observes and quantifies negativity/entanglement of formation in bipartite qutrit states",
+    "qubit_number": 2,
+    "reference_url": "https://arxiv.org/abs/1909.01367",
+    "approved": true,
+    "algorithm": [],
+    "qubit_type": [
+      3
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 80,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:06.160Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Observes quantum walk of a phonon in a trapped-ion crystal",
+    "qubit_number": 4,
+    "reference_url": null,
+    "approved": true,
+    "algorithm": [
+      16
+    ],
+    "qubit_type": [
+      7
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 81,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:06.551Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Generates photon-atom entanglement in a 6x5 multiplexed atomic quantum memory",
+    "qubit_number": null,
+    "reference_url": "https://arxiv.org/abs/1909.02185",
+    "approved": true,
+    "algorithm": [],
+    "qubit_type": [
+      1,
+      4
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 82,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:06.728Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Demonstrates 173Yb(trensal) molecule behaves as a nuclear qudit coupled to an electronic qubit",
+    "qubit_number": 1,
+    "reference_url": "https://arxiv.org/abs/1909.02374",
+    "approved": true,
+    "algorithm": [],
+    "qubit_type": [
+      2
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 83,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:06.885Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Proposes kernel algorithm and demonstrates example on IBM Q hardware",
+    "qubit_number": 5,
+    "reference_url": "https://arxiv.org/abs/1909.02611",
+    "approved": true,
+    "algorithm": [
+      15
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      2,
+      16
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 84,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:07.377Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Reports first experimental demonstration of a universal quantum cloning machine",
+    "qubit_number": 5,
+    "reference_url": "https://arxiv.org/abs/1909.03170",
+    "approved": true,
+    "algorithm": [],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 85,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:07.577Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Implements quantum state transfer on various graphs via quantum walks",
+    "qubit_number": 7,
+    "reference_url": "https://arxiv.org/abs/1909.03617",
+    "approved": true,
+    "algorithm": [
+      16
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      2,
+      8,
+      16
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 86,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:07.969Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Demonstrates quantum steering",
+    "qubit_number": 2,
+    "reference_url": "https://arxiv.org/abs/1909.04001",
+    "approved": true,
+    "algorithm": [],
+    "qubit_type": [
+      3
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 87,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:08.161Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Emulates linear and nonlinear optical elements",
+    "qubit_number": 5,
+    "reference_url": "https://arxiv.org/abs/1909.04408",
+    "approved": true,
+    "algorithm": [
+      21
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      17
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 88,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:08.588Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Characterizes singles qubit error rates on IBMQ Poughkeepsie",
+    "qubit_number": 1,
+    "reference_url": "https://arxiv.org/abs/1909.05219",
+    "approved": true,
+    "algorithm": [
+      20
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      14
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 89,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:08.994Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Computes two-point correlation functions for a Heisenberg spin chain",
+    "qubit_number": 4,
+    "reference_url": "https://arxiv.org/abs/1909.05701",
+    "approved": true,
+    "algorithm": [
+      21
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      12
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 90,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:09.328Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Solves small systems of linear equations",
+    "qubit_number": 5,
+    "reference_url": "https://arxiv.org/abs/1909.05820",
+    "approved": true,
+    "algorithm": [
+      29
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      7
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 91,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:09.661Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Demonstrates phase gate operations on a logical qubit encoded in a bosonic oscillator",
+    "qubit_number": null,
+    "reference_url": "https://arxiv.org/abs/1909.06803",
+    "approved": true,
+    "algorithm": [
+      23
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 92,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:09.910Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Implements Steane code",
+    "qubit_number": 20,
+    "reference_url": "https://arxiv.org/abs/1909.07628",
+    "approved": true,
+    "algorithm": [
+      23
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      12,
+      22
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 93,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:10.319Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Simulates quantum-optical systems in the strong coupling regime with variational quantum algorithms",
+    "qubit_number": 3,
+    "reference_url": "https://arxiv.org/abs/1909.08640",
+    "approved": true,
+    "algorithm": [
+      14
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      14
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 94,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:10.742Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Demonstrates sprectroscopic technique to extract analyze defects in superconducting qubits",
+    "qubit_number": null,
+    "reference_url": "https://arxiv.org/abs/1909.09749",
+    "approved": true,
+    "algorithm": [
+      20
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 95,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:11.080Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Realizes abelian-geometric-phase-based nonadiabatic one-qubit gates with an Xmon qubit",
+    "qubit_number": 1,
+    "reference_url": "https://arxiv.org/abs/1909.09970",
+    "approved": true,
+    "algorithm": [
+      31
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 96,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:11.395Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Implements feedback-control method on random quantum walks",
+    "qubit_number": 2,
+    "reference_url": "https://arxiv.org/abs/1909.10022",
+    "approved": true,
+    "algorithm": [
+      16
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 97,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:11.777Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Presents experiments showing dynamically corrected gates can suppress error correlations in space/time",
+    "qubit_number": 1,
+    "reference_url": "https://arxiv.org/abs/1909.10727",
+    "approved": true,
+    "algorithm": [
+      20,
+      23
+    ],
+    "qubit_type": [
+      7
+    ],
+    "qubit_subtype": [
+      2
+    ],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 98,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:12.186Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Simulates dynamics of spin clusters via Trotterized evolution",
+    "qubit_number": 14,
+    "reference_url": "https://arxiv.org/abs/1909.10732",
+    "approved": true,
+    "algorithm": [
+      21
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      5,
+      16
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 99,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:12.603Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Implements kernel SVM algorithm for classification on OCR and Iris dataset",
+    "qubit_number": 5,
+    "reference_url": "https://arxiv.org/abs/1909.11988",
+    "approved": true,
+    "algorithm": [
+      15
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      2
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 100,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:13.032Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Introduces and tests new synchronization procedure for quantum key distribution",
+    "qubit_number": null,
+    "reference_url": "https://arxiv.org/abs/1909.12050",
+    "approved": true,
+    "algorithm": [
+      9
+    ],
+    "qubit_type": [
+      3
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 101,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:13.303Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Implements k-means clustering for Iris and MNIST datasets",
+    "qubit_number": 5,
+    "reference_url": "https://arxiv.org/abs/1909.12183",
+    "approved": true,
+    "algorithm": [
+      15
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      2
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 102,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:13.652Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Sep",
+    "description": "Implements experiment to device-independently verify EPR steering",
+    "qubit_number": 4,
+    "reference_url": "https://arxiv.org/abs/1909.13432",
+    "approved": true,
+    "algorithm": [
+      22
+    ],
+    "qubit_type": [
+      3
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 103,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:13.928Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Oct",
+    "description": "Calculates potential energy surface of hydrogen using [[4, 2, 2]] error-detecting code",
+    "qubit_number": 6,
+    "reference_url": "https://arxiv.org/abs/1910.00129",
+    "approved": true,
+    "algorithm": [
+      14,
+      23
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      18
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 104,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:14.328Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Oct",
+    "description": "Implements Simon's period finding algorithm",
+    "qubit_number": 7,
+    "reference_url": "https://arxiv.org/abs/1910.00802",
+    "approved": true,
+    "algorithm": [
+      13
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      23
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 105,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:14.686Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Oct",
+    "description": "Implements quantum network coding",
+    "qubit_number": 6,
+    "reference_url": "https://arxiv.org/abs/1910.00815",
+    "approved": true,
+    "algorithm": [],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      14,
+      21
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 106,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:15.007Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Oct",
+    "description": "Utilizes non-unitary operations in VQE",
+    "qubit_number": 8,
+    "reference_url": "https://arxiv.org/abs/1910.01830",
+    "approved": true,
+    "algorithm": [
+      28
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      9,
+      21
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 107,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:15.495Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Oct",
+    "description": "Introduces new superconducting qubit called bifluxon and presents experimental data",
+    "qubit_number": null,
+    "reference_url": "https://arxiv.org/abs/1910.03769",
+    "approved": true,
+    "algorithm": [
+      26
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": []
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 108,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:15.882Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Oct",
+    "description": "Introduces variational fast forwarding",
+    "qubit_number": 1,
+    "reference_url": "https://arxiv.org/abs/1910.04292",
+    "approved": true,
+    "algorithm": [
+      2
+    ],
+    "qubit_type": [
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      10
+    ]
+  }
+},
+{
+  "model": "implementations.nisqimplementation",
+  "pk": 109,
+  "fields": {
+    "timestamp": "2019-11-12T11:32:16.463Z",
+    "submitted_by": 1,
+    "year": "2019",
+    "year_int": 2019,
+    "month": "Oct",
+    "description": "Performs VQE for dynamical mean field theory calculations",
+    "qubit_number": 4,
+    "reference_url": "https://arxiv.org/abs/1910.04735",
+    "approved": true,
+    "algorithm": [
+      28
+    ],
+    "qubit_type": [
+      7,
+      8
+    ],
+    "qubit_subtype": [],
+    "computer": [
+      16
+    ]
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2019-11-12T10:29:29.575Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "IBMQ Poughkeepsie",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"computer_type\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2019-11-12T10:29:39.358Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "IBMQ Poughkeepsie",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2019-11-12T11:20:26.965Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Aug 1997 | Implemented gates (XOR, Toffoli), prepared entangled state",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2019-11-12T11:26:46.559Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Mar 2019 | Hello world",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2019-11-12T11:28:01.767Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Aug 1997 | Implemented gates (XOR, Toffoli), prepared entangled state",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2019-11-12T11:30:27.135Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Aug 1997 | Implemented gates (XOR, Toffoli), prepared entangled state",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2019-11-12T11:31:03.464Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Aug 1997 | Implemented gates (XOR, Toffoli), prepared entangled state",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2019-11-13T04:20:15.223Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "39",
+    "object_repr": "Mar 2016 | Executes single and two-qubit gates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"qubit_subtype\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2019-11-14T12:19:18.782Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "110",
+    "object_repr": "Sep 2019 | Presents experiments showing dynamically corrected gates can suppress error correlations in space/time",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2019-11-14T12:21:23.299Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "111",
+    "object_repr": "Dec 2019 | Presents experiments showing dynamically corrected gates can suppress error correlations in space/time",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2019-11-14T12:22:32.830Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "112",
+    "object_repr": "Dec 2019 | Presents experiments showing dynamically corrected gates can suppress error correlations in space/time",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2019-11-14T12:23:37.511Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "113",
+    "object_repr": "Dec 2019 | Presents experiments showing dynamically corrected gates can suppress error correlations in space/time",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2019-11-14T12:23:46.044Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "24",
+    "object_repr": "IBMQ25",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2019-11-14T12:32:16.663Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "114",
+    "object_repr": "Dec 2019 | Presents experiments showing dynamically corrected gates can suppress error correlations in space/time",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2019-11-14T12:33:12.846Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "115",
+    "object_repr": "Dec 2019 | Presents experiments showing dynamically corrected gates can suppress error correlations in space/time",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2019-11-14T13:57:28.115Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "18",
+    "object_repr": "Feb 2003 | Executed DJ on ion-trap quantum computer",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"qubit_subtype\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2019-11-14T13:57:49.128Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "19",
+    "object_repr": "Dec 2004 | Demonstrates 3 qubit code for spin flip errors",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"qubit_subtype\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2019-11-14T13:58:15.817Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "20",
+    "object_repr": "May 2005 | Semi-classical QFT",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"qubit_subtype\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2019-11-14T13:58:51.001Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "22",
+    "object_repr": "Oct 2005 | Executed Grover's algorithm on two trapped ion qubits",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"qubit_subtype\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2019-11-14T13:59:35.474Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "33",
+    "object_repr": "Jan 2014 | Gate implementations and entangled state preparation",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"qubit_subtype\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2019-11-14T14:00:17.611Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "37",
+    "object_repr": "July 2015 | Factor 15",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"qubit_subtype\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2019-11-14T14:00:48.242Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "39",
+    "object_repr": "Mar 2016 | Executes single and two-qubit gates",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2019-11-14T14:01:11.778Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "40",
+    "object_repr": "Mar 2016 | Execute DJ, BV, and QFT algorithms",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"qubit_subtype\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2019-11-14T14:01:43.144Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "41",
+    "object_repr": "Mar 2016 | Implements BV algorithm",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"qubit_subtype\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2019-11-14T14:02:06.946Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "44",
+    "object_repr": "Aug 2016 | Demonstrates a method to optimize encoding procedure for small error correction code",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"qubit_subtype\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2019-11-14T14:03:13.282Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "67",
+    "object_repr": "Feb 2019 | Compute ground state energy of H20",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"qubit_subtype\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2019-11-14T14:03:56.137Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "68",
+    "object_repr": "Mar 2019 | Execute BV and HS algorithms",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"qubit_subtype\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2019-11-14T14:04:15.760Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "70",
+    "object_repr": "May 2019 | Demonstrates protocol for simultaneous entanglement generation of arbitrary qubit pairs",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"qubit_subtype\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2019-11-14T14:05:38.435Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "97",
+    "object_repr": "Sep 2019 | Presents experiments showing dynamically corrected gates can suppress error correlations in space/time",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"qubit_subtype\"]}}]"
+  }
+}
+]

@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+<title>NISQ Algorithm Zoo | About</title>
+{% endblock title %}
+
+{% block content %}
+{% include 'partials/navbar.html' %}
+
+
+<style>
+    .h2_terms {
+        font-weight: 600;
+        padding-top: 20px; 
+        padding-bottom: 20px; 
+        font-size: 24px; 
+        text-align: center;
+    }
+    .h4_terms {
+        margin-bottom: 20px; 
+        margin-top: 20px; 
+        font-size: 18px; 
+        font-weight: 600;
+    }
+    .h6_terms {
+        margin-bottom: 20px; 
+        margin-top: 20px; 
+        font-size: 14px; 
+        font-weight: 400;
+    }
+    .a_about{
+        color: #6545a4;
+        font-size:16px;
+        text-decoration:none;
+    }
+    .a_about:hover {
+        background-color: #43356D 
+        color: #212529;
+        text-decoration:none;
+    }
+</style>
+
+<div class="container">
+
+<h3 class='h2_terms'>
+    Cookies policy
+</h3>
+
+<h6 class='h6_terms'>
+    
+Cookies are text files placed on your computer to collect standard Internet 
+log information and visitor behavior information. When you visit our website, 
+we may collect information from you automatically through cookies or similar 
+technology.
+
+</h6>
+
+<h4 class='h4_terms'>
+    How do we use cookies?
+</h4>
+
+<h6 class='h6_terms'>
+We use cookies to keeping you signed in, understanding how you use our website 
+(in an anonymous fashion).
+</h6>
+
+<h4 class='h4_terms'>
+    Privacy policies of other websites
+</h4>
+
+<h6 class='h6_terms'>
+The website contains links to other websites. 
+Our privacy policy applies only to our website, so 
+if you click on a link to another website, you should read their privacy policy.
+</h6>
+
+<h4 class='h4_terms'>
+    Changes to our privacy policy
+</h4>
+
+<h6 class='h6_terms'>
+We keep our privacy policy under regular review and places any updates on this
+web page. This privacy policy was last updated on 18 Feb 2020.
+</h6>
+
+</div>
+
+
+{% include 'partials/footer.html' %}
+
+{% endblock content %}
+
+

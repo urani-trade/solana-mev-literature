@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: django-iam-dbauth
+Version: 0.1.2
+Summary: Django database backends to use AWS Database IAM Authentication
+Home-page: https://github.com/LabD/django-iam-dbauth
+Author: Lab Digital
+Author-email: opensource@labdigital.nl
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: Django (>=1.11)
+Requires-Dist: boto3
+Requires-Dist: dnspython
+Provides-Extra: docs
+Provides-Extra: test
+Requires-Dist: coverage (==4.5.4) ; extra == 'test'
+Requires-Dist: pretend (==1.0.9) ; extra == 'test'
+Requires-Dist: pytest (==5.1.2) ; extra == 'test'
+Requires-Dist: pytest-cov (==2.7.1) ; extra == 'test'
+Requires-Dist: pytest-mock (==1.10.4) ; extra == 'test'
+Requires-Dist: pytest-django (==3.5.1) ; extra == 'test'
+
+# Django IAM database backends
+
+
+## Usage
+
+```shell
+pip install django-iam-dbauth
+```
+
+In your settings use the following
+
+```python
+DATABASES = {
+    "default": {
+        "HOST": "<hostname>",
+        "USER": "<user>",
+        "ENGINE": 'django_iam_dbauth.aws.postgresql'
+        "OPTIONS": {
+            "use_iam_auth": True
+        }
+    }
+}
+```
+
+
