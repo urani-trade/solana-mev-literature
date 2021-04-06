@@ -1,14 +1,9 @@
-# NISQ Algorithm Zoo
+# Crypto Search Portal
 
 <p align="center">
 <img src="https://image-arxiv.s3.amazonaws.com/logo_small.png" width="20%" align="center" style="padding:1px;border:thin solid black;" />
 </p>
 
-
-
-
-A curated list of algorithms run on NISQ computers and NISQ computer benchmarks. 
-#### [nisqalgorithmzoo.com](https://nisqalgorithmzoo.com).
 
 
 ----
