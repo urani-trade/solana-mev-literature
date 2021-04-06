@@ -1,9 +1,5 @@
 # Crypto Search Portal
 
-<p align="center">
-<img src="https://image-arxiv.s3.amazonaws.com/logo_small.png" width="20%" align="center" style="padding:1px;border:thin solid black;" />
-</p>
-
 
 
 ----
@@ -247,7 +243,5 @@ python manage.py loaddata db_backup[timestamp].json
 Help for loaddata/dumpdata can be found at [this link](https://coderwall.com/p/mvsoyg/django-dumpdata-and-loaddata). The official Django documentation is also helpful.
 
 
-## Adding, Removing and Editing Data in our Django Admin Panel
 
-Our database can be inspected in our Django admin panel located at [https://nisqalgorithmzoo.com/zookeeper](https://nisqalgorithmzoo.com/zookeeper).
 
