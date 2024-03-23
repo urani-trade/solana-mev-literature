@@ -39,6 +39,7 @@
 * [Toward Multidimensional Solana Fees, by Theo Diamandis, Tarun, and Shit Chitra](https://www.umbraresearch.xyz/writings/toward-multidimensional-solana-fees)
 * [How to use Priority Fees on Solana, by Solana Foundation](https://solana.com/developers/guides/advanced/how-to-use-priority-fees)
 * [Solana Fees in Theory and Practice, by Helius](https://www.helius.dev/blog/solana-fees-in-theory-and-practice)
+* [Solana's Fee Markets Aren't Real, by Eugene Chen](https://www.youtube.com/watch?v=Bhh4chj-J0I)
 
 <br>
 
