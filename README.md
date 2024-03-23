@@ -2,7 +2,7 @@
 
 <br>
 
-#### Our on-going library with technical documentation on Solana blockchain, with a focus on DeFi and MEV.
+#### Our on-going library with technical documentation on the Solana blockchain, with a focus on DeFi and MEV.
 
 <br>
 
@@ -13,7 +13,7 @@
 <br>
 <br>
 
-* **[📘 The Solana Blockchain](1_Solana.md)**
+* **[📘 Solana Blockchain](1_Solana.md)**
 * **[📙 Decentralized Finance](2_DeFi.md)**
 * **[📗 MEV on Solana](3_MEV.md)**
 
