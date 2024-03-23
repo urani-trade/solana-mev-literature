@@ -10,6 +10,7 @@
 * [Solana Documentation, by Solana Foundation](https://solana.com/docs)
 * [Solana Developer Resources, by Solana Foundation](https://solana.com/developers)
 * [The Solana Bet, by Toly](https://www.youtube.com/watch?v=dnKc5IvD88Q)
+* [A Deep Dive into Solana 2.0, by Toly](https://www.youtube.com/watch?v=4MufOKIeuFY)
 
 <br>
 
