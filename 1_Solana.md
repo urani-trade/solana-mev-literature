@@ -58,6 +58,14 @@
 
 * [Setup a Solana Validator, by Solana Labs](https://docs.solanalabs.com/operations/setup-a-validator)
 
+<br>
+
+### Clients
+
+* [Jito-Solana, Jito's client in Rust](https://github.com/jito-foundation/jito-solana)
+* [Firedancer, Jump's high-performance client in C++](https://jumpcrypto.com/firedancer/)
+* [Solana-MEV, ChorusOne's modification of Solana's validator](https://github.com/ChorusOne/solana-mev?tab=readme-ov-file)
+
 
 <br>
 
