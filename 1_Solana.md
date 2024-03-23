@@ -59,6 +59,7 @@
 ### Running a Solana Validator
 
 * [Setup a Solana Validator, by Solana Labs](https://docs.solanalabs.com/operations/setup-a-validator)
+* [Solana Validator Education - Jito-Solana Concepts + Setup](https://www.youtube.com/watch?v=owLlIRXQvo8)
 
 <br>
 
