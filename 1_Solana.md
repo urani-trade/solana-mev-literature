@@ -6,6 +6,7 @@
 
 <br>
 
+* [Solana Whitepaper, by Solana Foundation](https://github.com/solana-labs/whitepaper)
 * [Solana Documentation, by Solana Foundation](https://solana.com/docs)
 * [Solana Developer Resources, by Solana Foundation](https://solana.com/developers)
 * [The Solana Bet, by Toly](https://www.youtube.com/watch?v=dnKc5IvD88Q)
