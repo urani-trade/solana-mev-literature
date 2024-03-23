@@ -28,6 +28,17 @@
 
 ---
 
+## 📘 Talks
+
+<br>
+
+* [Breakpoint 2022: Why MEV is Here to Stay](https://www.youtube.com/watch?v=Of6gISbOsi0)
+
+<br>
+
+
+---
+
 ## 📙 Stats and Dashboards
 
 <br>
