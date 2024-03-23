@@ -25,6 +25,12 @@
 
 <br>
 
+### Turbine and Data Availability
+
+* [Turbine: Block Propagation on Solana, by Helius](https://www.helius.dev/blog/turbine-block-propagation-on-solana)
+
+<br>
+
 ### Solana Transactions and Fees
 
 * [Lifecycle of a Solana Transaction, by ShitTrader and Buffalu](https://www.umbraresearch.xyz/writings/lifecycle-of-a-solana-transaction)
