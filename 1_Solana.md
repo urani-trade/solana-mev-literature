@@ -1,18 +1,20 @@
-#  Relevant Literature on the Solana Blockchain
+# 📚 Literature on Solana Blockchain
 
 <br>
 
-## General Knowledge
+## 📙 General Knowledge
 
 <br>
 
+* [Solana Documentation, by Solana Foundation](https://solana.com/docs)
+* [Solana Developer Resources, by Solana Foundation](https://solana.com/developers)
 * [The Solana Bet, by Toly](https://www.youtube.com/watch?v=dnKc5IvD88Q)
 
 <br>
 
 ---
 
-## Solana Architecture
+## 📘 Solana Architecture
 
 <br>
 
@@ -41,18 +43,34 @@
 
 ----
 
-## Solana Validators
+## 📗 Solana Validators
+
+<br>
+
+### Running a Solana Validator
+
+* [Setup a Solana Validator, by Solana Labs](https://docs.solanalabs.com/operations/setup-a-validator)
+
 
 <br>
 
 ### Stats and Dashboards
 
-<br>
 
 * [Dune's Solana Staking, Validators, and LSTs](https://dune.com/ilemi/solana-staking)
 * [Solana Validator.app Metrics](https://www.validators.app/)
 * [Solana.compass Validator Metrics](https://solanacompass.com/)
 
 <br>
+
+---
+
+## 📕 Join the Decentralized Finance Revolution
+
+<br>
+
+
+* [Superteam Communities](https://superteam.fun/)
+* [Solana Jobs](https://jobs.solana.com/jobs)
 
 
