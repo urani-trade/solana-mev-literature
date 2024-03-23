@@ -33,6 +33,7 @@
 <br>
 
 * [Breakpoint 2022: Why MEV is Here to Stay](https://www.youtube.com/watch?v=Of6gISbOsi0)
+* [Jito Bundles, by Solandy](https://www.youtube.com/watch?v=HZ1pK9i6zx4)
 
 <br>
 
