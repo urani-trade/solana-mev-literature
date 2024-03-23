@@ -12,10 +12,16 @@
 
 ----
 
-## 📕 Off-chain Settlements
+## 📕 Off-chain Settlement
 
 <br>
 
+
+
+### Protocols leveraging Intent
+
+* [UniswapX](https://docs.uniswap.org/contracts/uniswapx/overview)
+* [CoW Protocol](https://docs.cow.fi/category/concepts)
 
 
 <br>
@@ -26,11 +32,9 @@
 
 <br>
 
-### Arbritage
+### Arbitrage
 
-<br>
-
-* [Arbitrage as a Convex optimization problem, by ChorusOne](https://chorusone.notion.site/Arbitrage-as-a-Convex-optimization-problem-f2490665033f41b6b6d41cfd5196acae)
+* [Arbitrage as a Convex optimization problem on Solana, by ChorusOne](https://chorusone.notion.site/Arbitrage-as-a-Convex-optimization-problem-f2490665033f41b6b6d41cfd5196acae)
 
 <br>
 
