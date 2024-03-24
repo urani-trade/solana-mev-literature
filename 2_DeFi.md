@@ -18,7 +18,7 @@
 
 ### Intent-Based Markets
 
-* [An Analysis of Intent-Based Markets, by Tarun et al](https://arxiv.org/pdf/2403.02525.pdf)
+* [An Analysis of Intent-Based Markets, by Tarun et al.](https://arxiv.org/pdf/2403.02525.pdf)
 
 <br>
 
