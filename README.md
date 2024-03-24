@@ -9,7 +9,7 @@
 
 
 <p align="center">
-<img src="https://github.com/urani-labs/solana-mev-literature/assets/162904807/bf431c52-0e7e-49b0-b295-4da0ccab814d" width="60%" align="center" style="padding:1px;border:1px solid black;"/>
+<img src="https://github.com/urani-labs/solana-mev-literature/assets/162904807/fde6c9af-bf28-4689-973d-d6c2752d5111" width="70%" align="center" style="padding:1px;border:1px solid black;"/>
 </p>
 <br>
 <br>
