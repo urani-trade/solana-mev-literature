@@ -1,9 +1,10 @@
-# 📚 Solana MEV Literature
+# 📚 Solana MEV Curated Literature
 
 <br>
 
-#### On-going library with technical documentation on the Solana blockchain, with a focus on DeFi and MEV.
+### Our ongoing library featuring a curated selection of technical publications on the Solana blockchain, with a focus on DeFi and MEV. It is made from geeks to geeks.
 
+<br>
 <br>
 
 
@@ -13,7 +14,7 @@
 <br>
 <br>
 
-* **[📘 Solana Blockchain](1_Solana.md)**
-* **[📙 Decentralized Finance](2_DeFi.md)**
-* **[📗 MEV on Solana](3_MEV.md)**
+### [📘 Resources on the Solana Blockchain](1_Solana.md)
+### [📙 Resources on Decentralized Finance](2_DeFi.md)
+### [📗 Resources on Solana MEV](3_MEV.md)
 
