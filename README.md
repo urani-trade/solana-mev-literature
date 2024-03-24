@@ -1,14 +1,14 @@
-# 📚 Solana and MEV Literature
+# 📚 Solana MEV Literature
 
 <br>
 
-#### Our on-going library with technical documentation on the Solana blockchain, with a focus on DeFi and MEV.
+#### On-going library with technical documentation on the Solana blockchain, with a focus on DeFi and MEV.
 
 <br>
 
 
 <p align="center">
-<img src="https://github.com/urani-labs/solana-mev-literature/assets/162904807/a0d50f9a-bde3-4f9d-ad8f-1b187205fe14" width="60%" align="center" style="padding:1px;border:1px solid black;"/>
+<img src="https://github.com/urani-labs/solana-mev-literature/assets/162904807/bf431c52-0e7e-49b0-b295-4da0ccab814d" width="60%" align="center" style="padding:1px;border:1px solid black;"/>
 </p>
 <br>
 <br>
