@@ -63,6 +63,7 @@
 
 ### Running a Solana Validator
 
+* [Understanding Slots, Blocks, and Epochs on Solana, by Helius](https://www.helius.dev/blog/solana-slots-blocks-and-epochs)
 * [Setup a Solana Validator, by Solana Labs](https://docs.solanalabs.com/operations/setup-a-validator)
 * [Solana Validator Education - Jito-Solana Concepts + Setup](https://www.youtube.com/watch?v=owLlIRXQvo8)
 
