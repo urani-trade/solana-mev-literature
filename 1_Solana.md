@@ -42,6 +42,7 @@
 * [How to use Priority Fees on Solana, by Solana Foundation](https://solana.com/developers/guides/advanced/how-to-use-priority-fees)
 * [Solana Fees in Theory and Practice, by Helius](https://www.helius.dev/blog/solana-fees-in-theory-and-practice)
 * [Solana's Fee Markets Aren't Real, by Eugene Chen](https://www.youtube.com/watch?v=Bhh4chj-J0I)
+* [Helius Priority Fee API](https://docs.helius.dev/solana-rpc-nodes/alpha-priority-fee-api)
 
 <br>
 
