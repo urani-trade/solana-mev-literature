@@ -16,6 +16,7 @@
 * [Solana MEV, an introduction, by Helius](https://www.helius.dev/blog/solana-mev-an-introduction)
 * [MEV WIF me, by Jito Foundation](https://www.jito.network/blog/mev-wif-me/)
 * [Jito, the Ruler of Solana MEV, by Four Pillars](https://4pillars.io/en/articles/jito-the-ruler-of-solana-mev/public)
+* [Analyzing MEV Instances on Solana, by Chrorus One](https://medium.com/chorus-one/analyzing-mev-instances-on-solana-c30d06953ed8)
 
 <br>
 
