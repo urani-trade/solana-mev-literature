@@ -30,6 +30,7 @@
 
 ### Turbine and Data Availability
 
+* [Turbine Block Propagation, by Solana Foundation](https://docs.solanalabs.com/consensus/turbine-block-propagation)
 * [Turbine: Block Propagation on Solana, by Helius](https://www.helius.dev/blog/turbine-block-propagation-on-solana)
 
 <br>
