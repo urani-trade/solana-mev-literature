@@ -19,6 +19,7 @@
 ### Intent-Based Markets
 
 * [An Analysis of Intent-Based Markets, by Tarun et al.](https://arxiv.org/pdf/2403.02525.pdf)
+* [Intent-Based Architectures and Their Risks, by Quintus Kilbourn et al.](https://www.paradigm.xyz/2023/06/intents)
 
 <br>
 
