@@ -7,7 +7,7 @@
 
 <br>
 
-### Introductory
+### Beginner
 
 <br>
 
@@ -20,9 +20,8 @@
 
 <br>
 
-### Advanced 
+### Expert 
 
-* [Breakpoint 2022: Why MEV Is Here to Stay](https://www.youtube.com/watch?v=Of6gISbOsi0)  
 * [Jito Labs Technical Specs](https://docs.google.com/document/d/1PNSpqR-bmQpRp-Vq5wmy-wwp9g8Ni4ikoWmRYnWO-CY/edit#heading=h.tdkwsfn244mp)
 * [go-outside-labs's catalog on the MEV space](https://github.com/go-outside-labs/mev-toolkit)
 
