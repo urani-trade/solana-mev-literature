@@ -6,12 +6,14 @@
 
 <br>
 
+* [The Solana Bet, by Toly](https://www.youtube.com/watch?v=dnKc5IvD88Q)
+* [Solana's Ultimate Vision, by Toly](https://www.youtube.com/watch?v=cDXG2RFDIjM&t=2s)
 * [Solana Whitepaper, by Solana Foundation](https://github.com/solana-labs/whitepaper)
 * [Solana Documentation, by Solana Foundation](https://solana.com/docs)
 * [Solana Developer Resources, by Solana Foundation](https://solana.com/developers)
-* [The Solana Bet, by Toly](https://www.youtube.com/watch?v=dnKc5IvD88Q)
 * [A Deep Dive into Solana 2.0, by Toly](https://www.youtube.com/watch?v=4MufOKIeuFY)
-* [Solana's Ultimate Vision, by Toly](https://www.youtube.com/watch?v=cDXG2RFDIjM&t=2s)
+
+
 
 <br>
 
@@ -44,9 +46,9 @@
 * [Solana Fees I, by ShitTrader](https://www.umbraresearch.xyz/writings/solana-fees-part-1)
 * [Solana Fees in Theory and Practice, by Helius](https://www.helius.dev/blog/solana-fees-in-theory-and-practice)
 * [Solana's Fee Markets Aren't Real, by Eugene Chen](https://www.youtube.com/watch?v=Bhh4chj-J0I)
-* [Helius Priority Fee API](https://docs.helius.dev/solana-rpc-nodes/alpha-priority-fee-api)
 * [Priority Fees: Understanding Solana's Transaction Fee Mechanics, by Helius](https://www.helius.dev/blog/priority-fees-understanding-solanas-transaction-fee-mechanics)
-* [Toward Multidimensional Solana Fees, by Theo Diamandis, Tarun, and Shit Chitra](https://www.umbraresearch.xyz/writings/toward-multidimensional-solana-fees)
+* [Toward Multidimensional Solana Fees, by Theo Diamandis et al](https://www.umbraresearch.xyz/writings/toward-multidimensional-solana-fees)
+* [Helius Priority Fee API](https://docs.helius.dev/solana-rpc-nodes/alpha-priority-fee-api)
 
 <br>
 
@@ -65,8 +67,8 @@
 
 ### Running a Solana Validator
 
-* [Understanding Slots, Blocks, and Epochs on Solana, by Helius](https://www.helius.dev/blog/solana-slots-blocks-and-epochs)
 * [Setup a Solana Validator, by Solana Labs](https://docs.solanalabs.com/operations/setup-a-validator)
+* [Understanding Slots, Blocks, and Epochs on Solana, by Helius](https://www.helius.dev/blog/solana-slots-blocks-and-epochs)
 * [Solana Validator Education - Jito-Solana Concepts + Setup](https://www.youtube.com/watch?v=owLlIRXQvo8)
 
 <br>
