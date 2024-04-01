@@ -24,6 +24,8 @@
 
 * [Jito Labs Technical Specs](https://docs.google.com/document/d/1PNSpqR-bmQpRp-Vq5wmy-wwp9g8Ni4ikoWmRYnWO-CY/edit#heading=h.tdkwsfn244mp)
 * [go-outside-labs's catalog on the MEV space](https://github.com/go-outside-labs/mev-toolkit)
+* [LVR reduction via Auction-Managed AMM](https://arxiv.org/pdf/2403.03367.pdf)
+* [LVR reduction via Function-Maximizing AMM](https://arxiv.org/pdf/2307.02074.pdf)
 
 <br>
 
