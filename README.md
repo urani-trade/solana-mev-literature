@@ -2,7 +2,8 @@
 
 <br>
 
-### Our ongoing library featuring a curated selection of technical publications on the Solana blockchain, with a focus on DeFi and MEV. From geeks to geeks.
+### Our on-going library featuring a curated selection of technical publications on the Solana blockchain, with a focus on DeFi and MEV. From geeks to geeks (and you are [welcome to contribute](./CONTRIBUTING.md)).
+
 
 <br>
 <br>
