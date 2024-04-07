@@ -37,12 +37,28 @@
 
 <br>
 
-### Solana Transactions and Fees
 
+### Sealevel and Parallelism
+
+* [Sealevel, Parallel Processing Thousands of Smart Contracts, by Toly](https://medium.com/solana-labs/sealevel-parallel-processing-thousands-of-smart-contracts-d814b378192)
+
+
+<br>
+
+### Solana Transactions
+
+
+
+* [Lifecycle of a Solana Transaction, by ShitTrader and Buffalu](https://www.umbraresearch.xyz/writings/lifecycle-of-a-solana-transaction)
+* [Why Are Transactions Dropping?, by Mert Mumtaz, Dan Smith](https://www.youtube.com/watch?v=FwuQupayblk)
+
+  
+<br>
+
+### Solana Fees
 
 * [Transaction Fees, by Solana Foundation](https://solana.com/docs/core/transactions/fees)
 * [How to use Priority Fees on Solana, by Solana Foundation](https://solana.com/developers/guides/advanced/how-to-use-priority-fees)
-* [Lifecycle of a Solana Transaction, by ShitTrader and Buffalu](https://www.umbraresearch.xyz/writings/lifecycle-of-a-solana-transaction)
 * [Solana Fees I, by ShitTrader](https://www.umbraresearch.xyz/writings/solana-fees-part-1)
 * [Solana Fees in Theory and Practice, by Helius](https://www.helius.dev/blog/solana-fees-in-theory-and-practice)
 * [Solana's Fee Markets Aren't Real, by Eugene Chen](https://www.youtube.com/watch?v=Bhh4chj-J0I)
@@ -54,12 +70,7 @@
 
 <br>
 
-### Sealevel and Parallelism
 
-* [Sealevel, Parallel Processing Thousands of Smart Contracts, by Toly](https://medium.com/solana-labs/sealevel-parallel-processing-thousands-of-smart-contracts-d814b378192)
-
-
-<br>
 
 ----
 
