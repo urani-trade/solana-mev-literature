@@ -48,9 +48,9 @@
 ### Solana Transactions
 
 
-
 * [Lifecycle of a Solana Transaction, by ShitTrader and Buffalu](https://www.umbraresearch.xyz/writings/lifecycle-of-a-solana-transaction)
 * [Why Are Transactions Dropping?, by Mert Mumtaz, Dan Smith](https://www.youtube.com/watch?v=FwuQupayblk)
+* [How to Land Transactions on Solana, by Anam Ansari](https://www.helius.dev/blog/how-to-land-transactions-on-solana)
 
   
 <br>
