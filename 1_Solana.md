@@ -13,8 +13,6 @@
 * [Solana Developer Resources, by Solana Foundation](https://solana.com/developers)
 * [A Deep Dive into Solana 2.0, by Toly](https://www.youtube.com/watch?v=4MufOKIeuFY)
 
-
-
 <br>
 
 ---
@@ -37,22 +35,24 @@
 
 <br>
 
-
 ### Sealevel and Parallelism
 
 * [Sealevel, Parallel Processing Thousands of Smart Contracts, by Toly](https://medium.com/solana-labs/sealevel-parallel-processing-thousands-of-smart-contracts-d814b378192)
 
+<br>
+
+### QUIC (Network Layer)
+
+* [Quinn (rust implementation of QUIC)](https://quinn-rs.github.io/quinn/networking-introduction.html)
 
 <br>
 
 ### Solana Transactions
 
-
 * [Lifecycle of a Solana Transaction, by ShitTrader and Buffalu](https://www.umbraresearch.xyz/writings/lifecycle-of-a-solana-transaction)
 * [Why Are Transactions Dropping?, by Mert Mumtaz, Dan Smith](https://www.youtube.com/watch?v=FwuQupayblk)
 * [How to Land Transactions on Solana, by Anam Ansari](https://www.helius.dev/blog/how-to-land-transactions-on-solana)
 
-  
 <br>
 
 ### Solana Fees
@@ -67,10 +67,7 @@
 * [Solana vs Ethereum Fee Markets, with Mert Mumtaz and Dan Smith](https://www.youtube.com/watch?v=tqMX3_CxaYQ)
 * [Helius Priority Fee API](https://docs.helius.dev/solana-rpc-nodes/alpha-priority-fee-api)
 
-
 <br>
-
-
 
 ----
 
@@ -93,11 +90,9 @@
 * [Firedancer, Jump's high-performance client in C++](https://jumpcrypto.com/firedancer/)
 * [Solana-MEV, ChorusOne's modification of Solana's validator](https://github.com/ChorusOne/solana-mev?tab=readme-ov-file)
 
-
 <br>
 
 ### Stats and Dashboards
-
 
 * [Dune's Solana Staking, Validators, and LSTs](https://dune.com/ilemi/solana-staking)
 * [Solana Validator.app Metrics](https://www.validators.app/)
@@ -111,8 +106,5 @@
 
 <br>
 
-
 * [Superteam Communities](https://superteam.fun/)
 * [Solana Jobs](https://jobs.solana.com/jobs)
-
-
