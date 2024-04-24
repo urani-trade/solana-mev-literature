@@ -12,6 +12,7 @@
 * [Solana Documentation, by Solana Foundation](https://solana.com/docs)
 * [Solana Developer Resources, by Solana Foundation](https://solana.com/developers)
 * [A Deep Dive into Solana 2.0, by Toly](https://www.youtube.com/watch?v=4MufOKIeuFY)
+* [Solana End Game, by Toly and Buffalu](https://www.youtube.com/watch?v=ayC1bgELR8E)
 
 <br>
 
