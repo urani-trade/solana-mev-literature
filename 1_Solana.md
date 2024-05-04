@@ -112,5 +112,6 @@
 
 <br>
 
+* [Jupiter's Solana Welcome Guide](https://welcome.jup.ag/)
 * [Superteam Communities](https://superteam.fun/)
 * [Solana Jobs](https://jobs.solana.com/jobs)
