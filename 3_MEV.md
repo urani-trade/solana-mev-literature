@@ -17,6 +17,7 @@
 * [MEV WIF me, by Jito Foundation](https://www.jito.network/blog/mev-wif-me/)
 * [Jito, the Ruler of Solana MEV, by Four Pillars](https://4pillars.io/en/articles/jito-the-ruler-of-solana-mev/public)
 * [Analyzing MEV Instances on Solana, by Chrorus One](https://medium.com/chorus-one/analyzing-mev-instances-on-solana-c30d06953ed8)
+* [Does DEX Liquidity Need a Defense Layer, by Nitesh Nath](https://www.youtube.com/watch?v=0s0km1T1RhE )
 
 <br>
 
