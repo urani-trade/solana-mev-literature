@@ -22,10 +22,15 @@
 
 <br>
 
+### Consensus and Proof of Stake
+
+* [Consensus on Solana, by Helius](https://www.helius.dev/blog/consensus-on-solana)
+
+<br>
+
 ### Proof of History
 
 * [Proof of History, by Toly](https://medium.com/solana-labs/proof-of-history-a-clock-for-blockchain-cf47a61a9274)
-* [Consensus on Solana, by Helius](https://www.helius.dev/blog/consensus-on-solana)
 
 <br>
 
