@@ -93,19 +93,31 @@
 
 ### Clients
 
+
+##### Jito
 * [Jito-Solana, Jito's client in Rust](https://github.com/jito-foundation/jito-solana)
+
+##### Firedancer
+
 * [Firedancer, Jump's high-performance client in C++](https://jumpcrypto.com/firedancer/)
-* [Solana-MEV, ChorusOne's modification of Solana's validator](https://github.com/ChorusOne/solana-mev?tab=readme-ov-file)
+* [What's Firedancer, by Helius](https://www.helius.dev/blog/what-is-firedancer)
 
 <p align="center">
 <img src="https://github.com/urani-labs/solana-mev-literature/assets/1130416/b3cc893e-d260-4329-b6d1-0dd6e28d0563" width="60%" align="center" style="padding:1px;border:1px solid black;"/>
 </p>
 
+<br>
+
+##### Others
+* [Solana-MEV, ChorusOne's modification of Solana's validator](https://github.com/ChorusOne/solana-mev?tab=readme-ov-file)
+
+
+<br>
+
 ### Stake Weighted QoS
 
 * [Stake Weighted QoS, by Solana Foundation](https://solana.com/developers/guides/advanced/stake-weighted-qos)
 
-<br>
 <br>
 
 ### Stats and Dashboards
