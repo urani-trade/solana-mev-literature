@@ -1,4 +1,4 @@
-# 📚 Literature on Solana Blockchain
+# 📚 Literature on the Solana Blockchain
 
 <br>
 
@@ -62,7 +62,7 @@
 * [How to use Priority Fees on Solana, by Solana Foundation](https://solana.com/developers/guides/advanced/how-to-use-priority-fees)
 * [Solana Fees I, by ShitTrader](https://www.umbraresearch.xyz/writings/solana-fees-part-1)
 * [Solana Fees in Theory and Practice, by Helius](https://www.helius.dev/blog/solana-fees-in-theory-and-practice)
-* [Solana's Fee Markets Aren't Real, by Eugene Chen](https://www.youtube.com/watch?v=Bhh4chj-J0I)
+* [Solana's Fee Markets Aren't Real, by ShitTrader](https://www.youtube.com/watch?v=Bhh4chj-J0I)
 * [Priority Fees: Understanding Solana's Transaction Fee Mechanics, by Helius](https://www.helius.dev/blog/priority-fees-understanding-solanas-transaction-fee-mechanics)
 * [Toward Multidimensional Solana Fees, by Theo Diamandis et al](https://www.umbraresearch.xyz/writings/toward-multidimensional-solana-fees)
 * [Solana vs Ethereum Fee Markets, with Mert Mumtaz and Dan Smith](https://www.youtube.com/watch?v=tqMX3_CxaYQ)
@@ -95,14 +95,18 @@
 <img src="https://github.com/urani-labs/solana-mev-literature/assets/1130416/b3cc893e-d260-4329-b6d1-0dd6e28d0563" width="60%" align="center" style="padding:1px;border:1px solid black;"/>
 </p>
 
+### Stake Weighted QoS
 
+* [Stake Weighted QoS, by Solana Foundation](https://solana.com/developers/guides/advanced/stake-weighted-qos)
+
+<br>
 <br>
 
 ### Stats and Dashboards
 
 * [Dune's Solana Staking, Validators, and LSTs](https://dune.com/ilemi/solana-staking)
-* [Solana Validator.app Metrics](https://www.validators.app/)
 * [Solana.compass Validator Metrics](https://solanacompass.com/)
+* [Solana Validator.app Metrics](https://www.validators.app/)
 
 <br>
 
