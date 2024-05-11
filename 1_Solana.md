@@ -13,6 +13,7 @@
 * [Solana Developer Resources, by Solana Foundation](https://solana.com/developers)
 * [A Deep Dive into Solana 2.0, by Toly](https://www.youtube.com/watch?v=4MufOKIeuFY)
 * [Solana End Game, by Toly and Buffalu](https://www.youtube.com/watch?v=ayC1bgELR8E)
+* [Moving from EVM to SVM, by Solana Foundation](https://solana.com/news/evm-to-svm)
 
 <br>
 
@@ -62,6 +63,12 @@
 
 <br>
 
+##### Compute Usage
+
+* [How to Optimize Compute Usage on Solana, by Solana Foundation](https://solana.com/developers/guides/advanced/how-to-optimize-compute)
+
+<br>
+
 ### Solana Fees
 
 * [Transaction Fees, by Solana Foundation](https://solana.com/docs/core/transactions/fees)
@@ -85,9 +92,17 @@
 ### Running a Solana Validator
 
 * [Setup a Solana Validator, by Solana Labs](https://docs.solanalabs.com/operations/setup-a-validator)
+* [How to Set Up a Solana Validator, by Helius](https://www.helius.dev/blog/how-to-set-up-a-solana-validator)
 * [Solana Validator Documentation, by Solana Labs](https://docs.solanalabs.com/)
 * [Understanding Slots, Blocks, and Epochs on Solana, by Helius](https://www.helius.dev/blog/solana-slots-blocks-and-epochs)
 * [Solana Validator Education, Jito-Solana Concepts + Setup](https://www.youtube.com/watch?v=owLlIRXQvo8)
+
+<br>
+
+<p align="center">
+<img src="https://github.com/urani-labs/solana-mev-literature/assets/1130416/f149e8fe-bba3-4a9e-be39-b5bde7fbde81" width="70%" align="center" style="padding:1px;border:1px solid black;"/>
+</p>
+
 
 <br>
 
