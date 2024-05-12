@@ -16,7 +16,7 @@
 <br>
 
 
-### [📘 Resources on the Solana Blockchain](1_Solana.md)
+### [📘 Resources on the Solana Ecosystem](1_Solana.md)
 ### [📙 Resources on Decentralized Finance](2_DeFi.md)
 ### [📗 Resources on Solana MEV](3_MEV.md)
 
