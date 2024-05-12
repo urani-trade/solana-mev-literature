@@ -23,39 +23,39 @@
 
 <br>
 
-### Consensus and Proof of Stake
+### 1️⃣ Consensus and Proof of Stake
 
 * [Consensus on Solana, by Helius](https://www.helius.dev/blog/consensus-on-solana)
 
 <br>
 
-### Proof of History
+### 2️⃣ Proof of History
 
 * [Proof of History, by Toly](https://medium.com/solana-labs/proof-of-history-a-clock-for-blockchain-cf47a61a9274)
 
 <br>
 
-### Turbine and Data Availability
+### 3️⃣ Turbine and Data Availability
 
 * [Turbine Block Propagation, by Solana Foundation](https://docs.solanalabs.com/consensus/turbine-block-propagation)
 * [Turbine: Block Propagation on Solana, by Helius](https://www.helius.dev/blog/turbine-block-propagation-on-solana)
 
 <br>
 
-### Sealevel and Parallelism
+### 4️⃣ Sealevel and Parallelism
 
 * [Sealevel, Parallel Processing Thousands of Smart Contracts, by Toly](https://medium.com/solana-labs/sealevel-parallel-processing-thousands-of-smart-contracts-d814b378192)
 
 <br>
 
-### QUIC (Network Layer)
+### 5️⃣ QUIC (Network Layer)
 
 * [Quinn (rust implementation of QUIC)](https://quinn-rs.github.io/quinn/networking-introduction.html)
 * [How to Mitigate Spam QUICkly, by Helius](https://www.helius.dev/blog/all-you-need-to-know-about-solana-and-quic)
 
 <br>
 
-### Solana Transactions
+### 6️⃣ Solana Transactions
 
 * [Lifecycle of a Solana Transaction, by ShitTrader and Buffalu](https://www.umbraresearch.xyz/writings/lifecycle-of-a-solana-transaction)
 * [Why Are Transactions Dropping?, by Mert Mumtaz, Dan Smith](https://www.youtube.com/watch?v=FwuQupayblk)
@@ -69,7 +69,15 @@
 
 <br>
 
-### Solana Fees
+### 7️⃣ Solana Fees
+
+<br>
+
+<p align="center">
+<img src="https://github.com/urani-labs/solana-mev-fee-markets-literature/assets/1130416/a84bbe69-a9a9-4d2a-8cab-c038a3d32963" width="80%" align="center" style="padding:1px;border:1px solid black;"/>
+</p>
+
+<br>
 
 * [Transaction Fees, by Solana Foundation](https://solana.com/docs/core/transactions/fees)
 * [How to use Priority Fees on Solana, by Solana Foundation](https://solana.com/developers/guides/advanced/how-to-use-priority-fees)
@@ -81,6 +89,7 @@
 * [Solana vs Ethereum Fee Markets, with Mert Mumtaz and Dan Smith](https://www.youtube.com/watch?v=tqMX3_CxaYQ)
 * [Helius Priority Fee API](https://docs.helius.dev/solana-rpc-nodes/alpha-priority-fee-api)
 
+
 <br>
 
 ----
@@ -89,7 +98,15 @@
 
 <br>
 
-### Running a Solana Validator
+### 1️⃣ Running a Solana Validator
+
+<br>
+
+<p align="center">
+<img src="https://github.com/urani-labs/solana-mev-literature/assets/1130416/f149e8fe-bba3-4a9e-be39-b5bde7fbde81" width="70%" align="center" style="padding:1px;border:1px solid black;"/>
+</p>
+
+<br>
 
 * [Setup a Solana Validator, by Solana Labs](https://docs.solanalabs.com/operations/setup-a-validator)
 * [How to Set Up a Solana Validator, by Helius](https://www.helius.dev/blog/how-to-set-up-a-solana-validator)
@@ -99,14 +116,7 @@
 
 <br>
 
-<p align="center">
-<img src="https://github.com/urani-labs/solana-mev-literature/assets/1130416/f149e8fe-bba3-4a9e-be39-b5bde7fbde81" width="70%" align="center" style="padding:1px;border:1px solid black;"/>
-</p>
-
-
-<br>
-
-### Clients
+### 2️⃣ Clients
 
 
 ##### Jito
@@ -129,13 +139,13 @@
 
 <br>
 
-### Stake Weighted QoS
+### 3️⃣ Stake Weighted QoS
 
 * [Stake Weighted QoS, by Solana Foundation](https://solana.com/developers/guides/advanced/stake-weighted-qos)
 
 <br>
 
-### Stats and Dashboards
+### 4️⃣ Stats and Dashboards
 
 * [Dune's Solana Staking, Validators, and LSTs](https://dune.com/ilemi/solana-staking)
 * [Solana.compass Validator Metrics](https://solanacompass.com/)
