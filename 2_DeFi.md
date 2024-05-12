@@ -1,4 +1,4 @@
-# 📚 DeFi, Intents, and Fee Markets in the Context of the Solana Blockchain
+# 📚 Research Resources on DeFi, Intents, and Fee Markets 
 
 <br>
 
