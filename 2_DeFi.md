@@ -23,6 +23,15 @@
 
 <br>
 
+##### MPC-Assisted Models
+
+<br>
+
+* [Renegade Protocol Whitepaper](https://www.renegade.fi/whitepaper.pdf)
+* [What Can Cryptography Do For Decentralized Mechanism Design?, by Shi et al.](https://arxiv.org/abs/2209.14462) (with bayesian incentives) 
+
+<br>
+
 ----
 
 ## 📕 Orderflow Auctions 
@@ -45,7 +54,7 @@
 
 ### 3️⃣ Protocols Leveraging Intents
 
-##### Cow
+##### CowSwap
 
 * [CoW Protocol](https://docs.cow.fi/category/concepts)
 
