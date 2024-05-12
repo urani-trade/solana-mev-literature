@@ -8,13 +8,13 @@
 
 ----
 
-## Chapters
+## Research Resources
 
 <br>
 
-#### [📘 Resources on the Solana Blockchain and Ecosystem](1_Solana.md)
-#### [📙 Resources on Decentralized Finance, Intents, and Fee Markets](2_DeFi.md)
-#### [📗 Resources on the state of MEV on Solana](3_MEV.md)
+#### [📘 On the Solana Blockchain and its Ecosystem](1_Solana.md)
+#### [📙 On Decentralized Finance, Intents, and Fee Markets](2_DeFi.md)
+#### [📗 On the State of MEV on the Solana Blockchain](3_MEV.md)
 
 <br>
 
