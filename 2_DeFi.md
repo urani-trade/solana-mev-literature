@@ -30,10 +30,20 @@
 
 <br>
 
-### Protocols Leveraging Intent
+### Protocols Leveraging Intents
+
+##### Cow
+
+* [CoW Protocol](https://docs.cow.fi/category/concepts)
+
+##### Uniswap 4
 
 * [UniswapX](https://docs.uniswap.org/contracts/uniswapx/overview)
-* [CoW Protocol](https://docs.cow.fi/category/concepts)
+
+
+##### Anoma
+
+* [Anoma, A unified Architecture for full-stack decentralized applications, by Goes et al.](https://github.com/anoma/whitepaper/blob/main/whitepaper.pdf)
 
 
 <br>
