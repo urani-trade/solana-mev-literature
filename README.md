@@ -1,22 +1,27 @@
-# 📚 Solana MEV Curated Literature
+# 📚 Curated Literature for MEV and Fee Markets in the Context of the Solana Blockchain
 
 <br>
 
-### Our on-going library featuring a curated selection of technical publications on the Solana blockchain, with a focus on DeFi and MEV. From geeks to geeks (and you are [welcome to contribute](./CONTRIBUTING.md)).
-
+### Urani's ongoing library featuring a curated selection of technical publications on the Solana blockchain, with a focus on DeFi, infrastructure, MEV, and fee (free) markets.
 
 <br>
+
+----
+
+## Chapters
+
 <br>
 
+#### [📘 Resources on the Solana Blockchain and Ecosystem](1_Solana.md)
+#### [📙 Resources on Decentralized Finance, Intents, and Fee Markets](2_DeFi.md)
+#### [📗 Resources on the state of MEV on Solana](3_MEV.md)
 
-<p align="center">
-<img src="https://github.com/urani-labs/solana-mev-literature/assets/162904807/9b66ac00-b114-45f9-ab44-695eb516c8da" width="70%" align="center" style="padding:1px;border:1px solid black;"/>
-</p>
 <br>
+
+---
+
+## Contributing
+
 <br>
 
-
-### [📘 Resources on the Solana Ecosystem](1_Solana.md)
-### [📙 Resources on Decentralized Finance](2_DeFi.md)
-### [📗 Resources on Solana MEV](3_MEV.md)
-
+#### You are welcome to contribute. See the guidelines [here](./CONTRIBUTING.md).
