@@ -1,13 +1,9 @@
-# 📚 MEV on Solana
+# 📚 Curated Resources on the state of MEV on Solana
 
 <br>
 
 
-## 📕 Articles
-
-<br>
-
-### Beginner
+## 📕 Articles 
 
 <br>
 
@@ -17,15 +13,6 @@
 * [MEV WIF me, by Jito Foundation](https://www.jito.network/blog/mev-wif-me/)
 * [Jito, the Ruler of Solana MEV, by Four Pillars](https://4pillars.io/en/articles/jito-the-ruler-of-solana-mev/public)
 * [Analyzing MEV Instances on Solana, by Chrorus One](https://medium.com/chorus-one/analyzing-mev-instances-on-solana-c30d06953ed8)
-
-<br>
-
-### Advanced 
-
-* [Jito Labs Technical Specs](https://docs.google.com/document/d/1PNSpqR-bmQpRp-Vq5wmy-wwp9g8Ni4ikoWmRYnWO-CY/edit#heading=h.tdkwsfn244mp)
-* [go-outside-labs's catalog on the MEV space](https://github.com/go-outside-labs/mev-toolkit)
-* [LVR reduction via Auction-Managed AMM](https://arxiv.org/pdf/2403.03367.pdf)
-* [LVR reduction via Function-Maximizing AMM](https://arxiv.org/pdf/2307.02074.pdf)
 
 <br>
 
@@ -41,7 +28,6 @@
 * [Does DEX Liquidity Need a Defense Layer, by Nitesh Nath](https://www.youtube.com/watch?v=0s0km1T1RhE )
 
 <br>
-
 
 ---
 
