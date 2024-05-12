@@ -3,10 +3,11 @@
 <br>
 
 
-## 📙 General Knowledge
+## 📙 (Multidimensional) Fee Markets
 
 <br>
 
+* [StableFees: A Predictable Fee Market for Cryptocurrencies, Basy et al.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3318327)
 
 <br>
 
