@@ -73,12 +73,6 @@
 
 <br>
 
-<p align="center">
-<img src="https://github.com/urani-labs/solana-mev-fee-markets-literature/assets/1130416/a84bbe69-a9a9-4d2a-8cab-c038a3d32963" width="80%" align="center" style="padding:1px;border:1px solid black;"/>
-</p>
-
-<br>
-
 * [Transaction Fees, by Solana Foundation](https://solana.com/docs/core/transactions/fees)
 * [How to use Priority Fees on Solana, by Solana Foundation](https://solana.com/developers/guides/advanced/how-to-use-priority-fees)
 * [Solana Fees I, by ShitTrader](https://www.umbraresearch.xyz/writings/solana-fees-part-1)
@@ -88,6 +82,7 @@
 * [Toward Multidimensional Solana Fees, by Theo Diamandis et al](https://www.umbraresearch.xyz/writings/toward-multidimensional-solana-fees)
 * [Solana vs Ethereum Fee Markets, with Mert Mumtaz and Dan Smith](https://www.youtube.com/watch?v=tqMX3_CxaYQ)
 * [Helius Priority Fee API](https://docs.helius.dev/solana-rpc-nodes/alpha-priority-fee-api)
+* [The Central Scheduler Priority Fee Algorithm, by Anza](https://www.anza.xyz/blog/introducing-the-central-scheduler-an-optional-feature-of-agave-v1-18)
 
 
 <br>
