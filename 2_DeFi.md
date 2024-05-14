@@ -9,6 +9,7 @@
 
 * [StableFees: A Predictable Fee Market for Cryptocurrencies, by Basy et al.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3318327)
 * [Bayesian Mechanism Design for Blockchain Transaction Fee Allocation, by Chen et al.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4413816)
+* [A Short Note on Setting Swap Parameters, by Shah et al.](https://arxiv.org/pdf/2305.10624)
 
 <br>
 
