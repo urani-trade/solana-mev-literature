@@ -109,13 +109,14 @@
 * [Understanding Slots, Blocks, and Epochs on Solana, by Helius](https://www.helius.dev/blog/solana-slots-blocks-and-epochs)
 * [Solana Validator Education, Jito-Solana Concepts + Setup](https://www.youtube.com/watch?v=owLlIRXQvo8)
 
+
 <br>
 
-### 2️⃣ Clients
-
-
 ##### Jito
+
 * [Jito-Solana, Jito's client in Rust](https://github.com/jito-foundation/jito-solana)
+
+<br>
 
 ##### Firedancer
 
@@ -131,6 +132,12 @@
 ##### Others
 * [Solana-MEV, ChorusOne's modification of Solana's validator](https://github.com/ChorusOne/solana-mev?tab=readme-ov-file)
 
+
+<br>
+
+### 2️⃣ TPU
+
+* [Solana Banking Stage and Scheduler, by apfitzge dev-log](https://apfitzge.github.io/posts/solana-scheduler/)
 
 <br>
 
