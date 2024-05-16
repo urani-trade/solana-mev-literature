@@ -69,7 +69,14 @@
 
 <br>
 
-### 7️⃣ Solana Fees
+### 7️⃣ The Banking Stage
+
+* [Spotlight: Solana's Scheduler, By Solana](https://www.youtube.com/watch?v=R7hq8ampBio)
+* [Solana Banking Stage and Scheduler, by apfitzge dev-log](https://apfitzge.github.io/posts/solana-scheduler/)
+
+<br>
+
+### 8️⃣ Solana Fees
 
 <br>
 
@@ -135,19 +142,13 @@
 
 <br>
 
-### 2️⃣ TPU
-
-* [Solana Banking Stage and Scheduler, by apfitzge dev-log](https://apfitzge.github.io/posts/solana-scheduler/)
-
-<br>
-
-### 3️⃣ Stake Weighted QoS
+### 2️⃣ Stake Weighted QoS
 
 * [Stake Weighted QoS, by Solana Foundation](https://solana.com/developers/guides/advanced/stake-weighted-qos)
 
 <br>
 
-### 4️⃣ Stats and Dashboards
+### 3️⃣ Stats and Dashboards
 
 * [Dune's Solana Staking, Validators, and LSTs](https://dune.com/ilemi/solana-staking)
 * [Solana.compass Validator Metrics](https://solanacompass.com/)
