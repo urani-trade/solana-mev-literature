@@ -45,6 +45,7 @@
 ### 4️⃣ Sealevel and Parallelism
 
 * [Sealevel, Parallel Processing Thousands of Smart Contracts, by Toly](https://medium.com/solana-labs/sealevel-parallel-processing-thousands-of-smart-contracts-d814b378192)
+* [Sealevel Parallel Runtime, by Solana Labs](https://medium.com/solana-labs/sealevel-parallel-processing-thousands-of-smart-contracts-d814b378192)
 
 <br>
 
