@@ -155,8 +155,9 @@
 * [Solana Beach](https://solanabeach.io/)
 * [Solana Explorer](https://explorer.solana.com/)
 * [Solana FM](https://solana.fm/)
-* [Dune's Solana Staking, Validators, and LSTs](https://dune.com/ilemi/solana-staking)
 * [Dune's Solana Key Metrics](https://dune.com/21co/solana-key-metrics)
+* [Dune's Solana DEX Overview](https://dune.com/ilemi/solana-dex-metrics)
+* [Dune's Solana Staking, Validators, and LSTs](https://dune.com/ilemi/solana-staking)
 * [Solana.compass Validator Metrics](https://solanacompass.com/)
 * [Solana Validator.app Metrics](https://www.validators.app/)
 
