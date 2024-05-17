@@ -73,7 +73,7 @@
 
 ### 7️⃣ The Banking Stage
 
-* [Spotlight: Solana's Scheduler, By Solana](https://www.youtube.com/watch?v=R7hq8ampBio)
+* [Spotlight: Solana's Scheduler, by Solana](https://www.youtube.com/watch?v=R7hq8ampBio)
 * [Solana Banking Stage and Scheduler, by apfitzge dev-log](https://apfitzge.github.io/posts/solana-scheduler/)
 
 <br>
@@ -90,9 +90,8 @@
 * [Priority Fees: Understanding Solana's Transaction Fee Mechanics, by Helius](https://www.helius.dev/blog/priority-fees-understanding-solanas-transaction-fee-mechanics)
 * [Toward Multidimensional Solana Fees, by Theo Diamandis et al](https://www.umbraresearch.xyz/writings/toward-multidimensional-solana-fees)
 * [Solana vs Ethereum Fee Markets, with Mert Mumtaz and Dan Smith](https://www.youtube.com/watch?v=tqMX3_CxaYQ)
-* [Helius Priority Fee API](https://docs.helius.dev/solana-rpc-nodes/alpha-priority-fee-api)
 * [The Central Scheduler Priority Fee Algorithm, by Anza](https://www.anza.xyz/blog/introducing-the-central-scheduler-an-optional-feature-of-agave-v1-18)
-
+* [Helius Priority Fee API](https://docs.helius.dev/solana-rpc-nodes/alpha-priority-fee-api)
 
 <br>
 
@@ -117,6 +116,7 @@
 * [Solana Validator Documentation, by Solana Labs](https://docs.solanalabs.com/)
 * [Understanding Slots, Blocks, and Epochs on Solana, by Helius](https://www.helius.dev/blog/solana-slots-blocks-and-epochs)
 * [Solana Validator Education, Jito-Solana Concepts + Setup](https://www.youtube.com/watch?v=owLlIRXQvo8)
+* [Validator Economics, a Primer, by Helius](https://www.helius.dev/blog/solana-validator-economics-a-primer)
 
 
 <br>
@@ -152,9 +152,14 @@
 
 ### 3️⃣ Stats and Dashboards
 
+* [Solana Beach](https://solanabeach.io/)
+* [Solana Explorer](https://explorer.solana.com/)
+* [Solana FM](https://solana.fm/)
 * [Dune's Solana Staking, Validators, and LSTs](https://dune.com/ilemi/solana-staking)
+* [Dune's Solana Key Metrics](https://dune.com/21co/solana-key-metrics)
 * [Solana.compass Validator Metrics](https://solanacompass.com/)
 * [Solana Validator.app Metrics](https://www.validators.app/)
+
 
 <br>
 
