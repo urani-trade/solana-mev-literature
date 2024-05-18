@@ -65,6 +65,12 @@
 
 <br>
 
+<p align="center">
+<img src="https://github.com/urani-labs/solana-mev-fee-markets-literature/assets/162904807/3f7a5abc-dd9f-45d4-b6b7-82b6a6f6a10b" width="60%" align="center" style="padding:1px;border:1px solid black;"/>
+</p>
+
+<br>
+
 ##### Compute Usage
 
 * [How to Optimize Compute Usage on Solana, by Solana Foundation](https://solana.com/developers/guides/advanced/how-to-optimize-compute)
@@ -88,7 +94,7 @@
 * [Solana Fees in Theory and Practice, by Helius](https://www.helius.dev/blog/solana-fees-in-theory-and-practice)
 * [Solana's Fee Markets Aren't Real, by ShitTrader](https://www.youtube.com/watch?v=Bhh4chj-J0I)
 * [Priority Fees: Understanding Solana's Transaction Fee Mechanics, by Helius](https://www.helius.dev/blog/priority-fees-understanding-solanas-transaction-fee-mechanics)
-* [Toward Multidimensional Solana Fees, by Theo Diamandis et al](https://www.umbraresearch.xyz/writings/toward-multidimensional-solana-fees)
+* [Toward Multidimensional Solana Fees, by Theo Diamandis et al.](https://www.umbraresearch.xyz/writings/toward-multidimensional-solana-fees)
 * [Solana vs Ethereum Fee Markets, with Mert Mumtaz and Dan Smith](https://www.youtube.com/watch?v=tqMX3_CxaYQ)
 * [The Central Scheduler Priority Fee Algorithm, by Anza](https://www.anza.xyz/blog/introducing-the-central-scheduler-an-optional-feature-of-agave-v1-18)
 * [Helius Priority Fee API](https://docs.helius.dev/solana-rpc-nodes/alpha-priority-fee-api)
