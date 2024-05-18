@@ -148,6 +148,7 @@
 
 * [Stake Weighted QoS, by Solana Foundation](https://solana.com/developers/guides/advanced/stake-weighted-qos)
 * [Solana Validator Education: Stake Weighted QoS](https://www.youtube.com/watch?v=yeV2i8bfSMs)
+* [Solana Bandwidth Markets, by FluxBeam](https://docs.fluxbeam.xyz/publications/solana-bandwidth-markets)
 
 <br>
 
