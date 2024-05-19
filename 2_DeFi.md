@@ -33,6 +33,14 @@
 
 <br>
 
+##### Privacy
+
+<br>
+
+* [The Limits of AMM Privacy and MEV, by Tarun Chitra](https://www.youtube.com/watch?v=AE5H_6EO-eU)
+
+<br>
+
 ----
 
 ## 📕 Orderflow Auctions 
