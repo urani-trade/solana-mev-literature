@@ -15,6 +15,7 @@
 * [Solana End Game, by Toly and Buffalu](https://www.youtube.com/watch?v=ayC1bgELR8E)
 * [Moving from EVM to SVM, by Solana Foundation](https://solana.com/news/evm-to-svm)
 
+
 <br>
 
 ---
@@ -66,8 +67,9 @@
 <br>
 
 <p align="center">
-<img src="https://github.com/urani-labs/solana-mev-fee-markets-literature/assets/162904807/3f7a5abc-dd9f-45d4-b6b7-82b6a6f6a10b" width="60%" align="center" style="padding:1px;border:1px solid black;"/>
+<img src="https://github.com/urani-labs/solana-mev-literature/assets/162904807/abc55386-135f-46da-8bcf-7a764e52c42a" width="60%" align="center" style="padding:1px;border:1px solid black;"/>
 </p>
+
 
 <br>
 
