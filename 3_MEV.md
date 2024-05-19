@@ -26,6 +26,7 @@
 * [Jito Bundles, by Solandy](https://www.youtube.com/watch?v=HZ1pK9i6zx4)
 * [Solana's MEV Problem, by Eugene Chen & Lucas Bruder](https://www.youtube.com/watch?v=IknurQzmVhY)
 * [Does DEX Liquidity Need a Defense Layer, by Nitesh Nath](https://www.youtube.com/watch?v=0s0km1T1RhE )
+* [Will Solana Surpass Ethereum In Economic Value?, by Mert Mumtaz](https://www.youtube.com/watch?v=Wwl4vj7ml60)
 
 <br>
 
