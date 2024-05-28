@@ -25,7 +25,7 @@
 
 <br>
 
-###### LVR
+##### LVR
 
 * [LVR reduction via Auction-Managed AMM](https://arxiv.org/pdf/2403.03367.pdf)
 * [LVR reduction via Function-Maximizing AMM](https://arxiv.org/pdf/2307.02074.pdf)
