@@ -139,6 +139,7 @@
 
 * [Firedancer, Jump's high-performance client in C++](https://jumpcrypto.com/firedancer/)
 * [What's Firedancer, by Helius](https://www.helius.dev/blog/what-is-firedancer)
+* [Firedancer w/ Kevin Bowers](https://www.youtube.com/watch?v=QL_yJWI-kNI)
 
 <p align="center">
 <img src="https://github.com/urani-labs/solana-mev-literature/assets/1130416/b3cc893e-d260-4329-b6d1-0dd6e28d0563" width="60%" align="center" style="padding:1px;border:1px solid black;"/>
