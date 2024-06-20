@@ -41,3 +41,15 @@
 * [Jito Retool for total MEV Revenue](https://jito.retool.com/embedded/public/e9932354-a5bb-44ef-bce3-6fbb7b187a89?ref=p2p.org)
 * [Solana MEV data, by Chorus One](https://dune.com/chorus_one_research/solana-mev-data)
 * [Solana MEV 24h Dune Board, by umbnat92](https://dune.com/umbnat92/solana-mev-usdc-profit)
+
+
+<br>
+
+---
+
+## 📗 [Bonus] Solving Cryptomarkets
+
+<br>
+
+* [A Crypto Native's History of Markets w/ Tarun Chitra](https://www.youtube.com/watch?v=6PZGpzIWfoY)
+
