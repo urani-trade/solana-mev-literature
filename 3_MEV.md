@@ -43,6 +43,13 @@
 * [Solana MEV 24h Dune Board, by umbnat92](https://dune.com/umbnat92/solana-mev-usdc-profit)
 * [Jito on Jupiter Slippage](https://dune.com/queries/3398973/5704425)
 
+<br>
+
+
+<p align="center">
+<img src="https://github.com/urani-labs/solana-mev-literature/assets/162904807/e98c065d-eb33-4099-9b6d-14177848bd00" width="60%" align="center" style="padding:1px;border:1px solid black;"/>
+</p>
+
 
 <br>
 
