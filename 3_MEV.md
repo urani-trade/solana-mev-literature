@@ -27,6 +27,7 @@
 * [Does DEX Liquidity Need a Defense Layer, with Nitesh Nath](https://www.youtube.com/watch?v=0s0km1T1RhE )
 * [Will Solana Surpass Ethereum In Economic Value?, with Mert Mumtaz](https://www.youtube.com/watch?v=Wwl4vj7ml60)
 * [Solana, What’s Right And What’s Wrong, with ShitTrader](https://www.youtube.com/watch?v=YWm8vzMEkg0)
+* [The Future Of Solana In 2024 & Beyond, with Zano Sherwani](https://www.youtube.com/watch?v=Nqhwa6uDpDE)
 
 <br>
 
