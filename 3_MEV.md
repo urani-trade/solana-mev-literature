@@ -60,5 +60,6 @@
 
 <br>
 
+* [Searchers of Nottingham Writeup, by Ashiq Amien](https://ashiq.co.za/posts/Searchers-of-Nottingham-Writeup/)
 * [A Crypto Native's History of Markets w/ Tarun Chitra](https://www.youtube.com/watch?v=6PZGpzIWfoY)
 
