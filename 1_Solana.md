@@ -27,6 +27,7 @@
 ### 1️⃣ Consensus and Proof of Stake
 
 * [Consensus on Solana, by Helius](https://www.helius.dev/blog/consensus-on-solana)
+* [Spotlight: Solana's Consensus (video)](https://www.youtube.com/watch?v=StDx4VhZIVk)
 
 <br>
 
