@@ -43,6 +43,7 @@
 * [Solana MEV data, by Chorus One](https://dune.com/chorus_one_research/solana-mev-data)
 * [Solana MEV 24h Dune Board, by umbnat92](https://dune.com/umbnat92/solana-mev-usdc-profit)
 * [Jito on Jupiter Slippage](https://dune.com/queries/3398973/5704425)
+* [UniswapX Revenue Dune Board, by Flashbots](https://dune.com/flashbots/uniswap-x)
 
 <br>
 
