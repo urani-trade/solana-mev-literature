@@ -55,13 +55,14 @@
 
 <br>
 
-### 1️⃣ Intent-Based Markets
+### 1️⃣ Intents
 
 * [Decoding Intents, by Grace Deng](https://mirror.xyz/0x592Dd47b24e4CDA75491c6CB023193423964cCcb/ISTQVpZSICAL_oG2dOia-6hdVuEpctENxLWFVv8Cz88)
 * [Intents, MEV, and Batch Auctions, by Cookies](https://www.shoal.gg/p/cow-swap-intents-mev-and-batch-auctions)
 * [Intent-Based Architectures and Their Risks, by Quintus Kilbourn et al.](https://www.paradigm.xyz/2023/06/intents)
 * [Searcher Limit Order Book, by Jump_ Crypto](https://jumpcrypto.com/writing/searcher-limit-order-book/)
 * [Vitalik's take on MEV Minimization through Intent-based Swaps](https://vitalik.eth.limo/general/2024/05/17/decentralization.html)
+* [EVIntent - Darkmatter in MEV, by propellerheads](https://www.propellerheads.xyz/blog/ev-intent)
 
 <br>
 
