@@ -126,6 +126,7 @@
 * [Understanding Slots, Blocks, and Epochs on Solana, by Helius](https://www.helius.dev/blog/solana-slots-blocks-and-epochs)
 * [Solana Validator Education, Jito-Solana Concepts + Setup](https://www.youtube.com/watch?v=owLlIRXQvo8)
 * [Validator Economics, a Primer, by Helius](https://www.helius.dev/blog/solana-validator-economics-a-primer)
+* [Multiple Concurrent Leaders, by Toly](https://x.com/aeyakovenko/status/1810222589991583922)
 
 
 <br>
