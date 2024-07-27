@@ -7,6 +7,7 @@
 
 <br>
 
+* [MEV meets Aggregation, by Tomas Fanta](https://medium.com/@tomasjfanta/mev-meets-aggregation-732aad4b57a4)
 * [Introduction to Solana, by Jito Labs](https://www.jito.network/blog/introduction-to-solana/)
 * [MEV on Solana, by ShitTrader && Edgar](https://www.umbraresearch.xyz/writings/mev-on-solana)
 * [Solana MEV, an introduction, by Helius](https://www.helius.dev/blog/solana-mev-an-introduction)
