@@ -127,6 +127,7 @@
 * [Solana Validator Education, Jito-Solana Concepts + Setup](https://www.youtube.com/watch?v=owLlIRXQvo8)
 * [Validator Economics, a Primer, by Helius](https://www.helius.dev/blog/solana-validator-economics-a-primer)
 * [Multiple Concurrent Leaders, by Toly](https://x.com/aeyakovenko/status/1810222589991583922)
+* [Challenges Facing Long-tail Validators, by Helius](https://www.helius.dev/blog/solana-foundation-delegation-program-sfdp)
 
 
 <br>
@@ -150,6 +151,7 @@
 <br>
 
 ##### Others
+
 * [Solana-MEV, ChorusOne's modification of Solana's validator](https://github.com/ChorusOne/solana-mev?tab=readme-ov-file)
 
 
